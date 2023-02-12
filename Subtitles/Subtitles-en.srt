@@ -1,0 +1,977 @@
+1
+00:00:34,133 --> 00:00:41,266
+The age of automatic calculation begins in 1623,
+
+2
+00:00:41,266 --> 00:00:45,000
+when Wilhelm Schickard completes his wooden calculating machine.
+
+3
+00:00:45,600 --> 00:00:51,100
+This machine uses gears and works in the decimal system.
+
+4
+00:00:51,700 --> 00:00:56,333
+Two gears can represent a two-digit number.
+
+5
+00:00:57,066 --> 00:01:01,100
+The handling of the carry during the addition is
+
+6
+00:01:01,500 --> 00:01:04,400
+realized with the help of pins and another gear wheel.
+
+7
+00:01:04,566 --> 00:01:06,900
+It goes like this...
+
+8
+00:01:08,066 --> 00:01:10,700
+Tens Carry over "One" and...
+
+9
+00:01:11,900 --> 00:01:14,266
+Carry over "Two"...
+
+10
+00:01:15,533 --> 00:01:17,566
+And...
+
+11
+00:01:17,700 --> 00:01:21,433
+Carry over "Three" makes a total of 30!
+
+12
+00:01:22,900 --> 00:01:25,466
+As you can see, gears are really
+
+13
+00:01:25,500 --> 00:01:28,433
+great for addition in the decimal system.
+
+14
+00:01:29,600 --> 00:01:33,466
+However, today's computers all work in the binary system, which
+
+15
+00:01:34,133 --> 00:01:38,366
+was documented by Gottfried Wilhelm Leibniz at the end of the 17th century,
+
+16
+00:01:38,366 --> 00:01:42,400
+around 75 years after Schickard's invention.
+
+17
+00:01:43,200 --> 00:01:45,900
+As an example, Herr Leibniz now shows us how to
+
+18
+00:01:46,266 --> 00:01:50,166
+calculate 3 + 1 in his binary system.
+
+19
+00:01:51,000 --> 00:01:57,266
+The 3 is represented as 1 * 2^1 + 1 * 2^0, i.e.
+
+20
+00:01:57,833 --> 00:02:01,766
+1 * 2 + 1 * 1.
+
+21
+00:02:02,066 --> 00:02:07,833
+The 1 corresponds to 0 * 2 + 1 * 1.
+
+22
+00:02:08,566 --> 00:02:12,633
+We form the sum by writing the two numbers one below the other.
+
+23
+00:02:13,633 --> 00:02:17,966
+Just like we learned in school for the decimal system.
+
+24
+00:02:19,200 --> 00:02:24,700
+So 1 + 1 = 0 ... 1 noted!
+
+25
+00:02:25,433 --> 00:02:30,666
+1 + (noted) 1 = 0
+And again 1 noted!
+
+26
+00:02:31,100 --> 00:02:36,366
+Finally, 0 + 1 = 1...
+
+27
+00:02:36,366 --> 00:02:41,800
+So the sum is 2 * 2^2 or 1 * 4,
+
+28
+00:02:42,200 --> 00:02:45,933
+or just decimal four!
+
+29
+00:02:46,966 --> 00:02:50,800
+In the calculation we saw that we
+
+30
+00:02:51,100 --> 00:02:56,533
+had to take the carry from the lower to the higher digit into account twice.
+
+31
+00:02:57,066 --> 00:03:00,300
+We will encounter this concept several times in the following.
+
+32
+00:03:00,900 --> 00:03:04,000
+So now we come to the modern world of technology
+
+33
+00:03:04,000 --> 00:03:10,166
+with the first binary calculator in the known universe, namely the Z1!
+
+34
+00:03:10,366 --> 00:03:13,500
+Konrad Zuse assembled his work
+
+35
+00:03:13,866 --> 00:03:18,933
+in 1937 from thousands of sheet metal parts.
+
+36
+00:03:19,500 --> 00:03:23,800
+Here we see the replica from the Technikmuseum in Berlin.
+
+37
+00:03:24,800 --> 00:03:29,666
+This part here, for example, implements the arithmetic unit with the adding unit.
+
+38
+00:03:30,300 --> 00:03:34,300
+Given the multitude of individual elements, it seems almost impossible
+
+39
+00:03:34,533 --> 00:03:38,233
+to understand how this marvel is supposed to work at its core.
+
+40
+00:03:38,600 --> 00:03:41,933
+Fortunately, however, there is a
+
+41
+00:03:41,933 --> 00:03:47,766
+model in the Zuse Museum in Hünfeld that clearly shows the underlying principles.
+
+42
+00:03:48,833 --> 00:03:54,400
+To implement the adder function, Zuse used three types of components,
+
+43
+00:03:54,400 --> 00:03:55,633
+namely...
+
+44
+00:03:55,633 --> 00:03:58,233
+AND and XOR gates,
+
+45
+00:03:58,433 --> 00:04:01,200
+as well as simple switch elements.
+
+46
+00:04:02,033 --> 00:04:05,433
+The model is pretty much the same as the adder circuit
+
+47
+00:04:05,433 --> 00:04:10,100
+that Konrad Zuse himself drew.
+
+48
+00:04:15,166 --> 00:04:17,700
+In the following, we will therefore first describe the structure
+
+49
+00:04:17,700 --> 00:04:22,466
+of these three basic elements, beginning with the AND gate.
+
+50
+00:04:22,933 --> 00:04:31,166
+This has two inputs A and B and an output that represents the result.
+
+51
+00:04:31,500 --> 00:04:37,533
+The truth table for the AND operation defines the result for each possible A and B.
+
+52
+00:04:37,800 --> 00:04:43,133
+Only when A and B are one is the output also one.
+
+53
+00:04:43,533 --> 00:04:48,733
+For all other cases we get the zero.
+
+54
+00:04:48,900 --> 00:04:56,833
+Let's take a look at how Konrad Zuse implemented this operation using his sheet metal parts.
+
+55
+00:04:57,700 --> 00:05:01,533
+In order not to lose orientation, we use the same
+
+56
+00:05:01,533 --> 00:05:06,466
+horizontal and vertical alignment as in the Hünfeld model.
+
+57
+00:05:07,700 --> 00:05:12,300
+The metal sheets A and B are used for the input,
+
+58
+00:05:12,700 --> 00:05:16,400
+which can move to the right and left respectively...
+
+59
+00:05:16,833 --> 00:05:23,166
+And thus make the one or the zero settable.
+
+60
+00:05:24,000 --> 00:05:30,400
+For the result there is the output sheet, which is moved in the vertical direction
+
+61
+00:05:30,733 --> 00:05:35,700
+and the result can represent zero and one.
+
+62
+00:05:37,133 --> 00:05:43,433
+The actual linking logic is implemented via the so-called coupling sheet,
+
+63
+00:05:43,733 --> 00:05:47,466
+which has special millings for the AND operation
+
+64
+00:05:47,733 --> 00:05:52,133
+and also moves in the vertical direction.
+
+65
+00:05:54,166 --> 00:05:58,000
+The three sheets are then stacked on top of each other
+
+66
+00:05:58,233 --> 00:06:01,700
+and connected to each other by two switching pins.
+
+67
+00:06:02,566 --> 00:06:06,200
+We achieve the same effect in the exploded-view drawing
+
+68
+00:06:06,466 --> 00:06:10,166
+using horizontally coupled pins.
+
+69
+00:06:10,766 --> 00:06:16,033
+What is still missing is a mechanism to trigger the AND circuit.
+
+70
+00:06:16,600 --> 00:06:20,400
+For this, Konrad Zuse provided the clock sheet,
+
+71
+00:06:20,766 --> 00:06:26,300
+which, like the output sheet, can move vertically.
+
+72
+00:06:27,733 --> 00:06:31,100
+Now we check whether the circuit works correctly
+
+73
+00:06:31,466 --> 00:06:35,533
+and start with the first row of the truth table.
+
+74
+00:06:35,866 --> 00:06:40,666
+As input we use zero for A and zero for B.
+
+75
+00:06:41,433 --> 00:06:45,100
+Then the clock pulse is triggered.
+
+76
+00:06:45,600 --> 00:06:50,566
+Because the upper coupling does not take place, the output sheet also remains
+
+77
+00:06:50,566 --> 00:06:55,233
+in its original position and the result is zero.
+
+78
+00:06:55,766 --> 00:06:58,666
+Now the second line...
+
+79
+00:06:59,633 --> 00:07:02,766
+zero and...
+
+80
+00:07:02,766 --> 00:07:04,333
+one...
+
+81
+00:07:04,433 --> 00:07:08,500
+is zero again
+
+82
+00:07:09,066 --> 00:07:13,466
+because the upper coupling is not activated again.
+
+83
+00:07:14,433 --> 00:07:17,366
+Now for the third line...
+
+84
+00:07:18,133 --> 00:07:24,133
+We set input A to one and B to zero.
+
+85
+00:07:24,966 --> 00:07:29,533
+This time the clock pulse moves the coupling sheet.
+
+86
+00:07:29,966 --> 00:07:37,933
+However, because the lower coupling does not take place, the output sheet again remains at zero.
+
+87
+00:07:38,933 --> 00:07:43,166
+Finally, we test the last row of the table
+
+88
+00:07:43,600 --> 00:07:46,833
+and set both input A
+
+89
+00:07:48,500 --> 00:07:53,200
+and B to one.
+
+90
+00:07:54,400 --> 00:08:02,300
+The output sheet is now shifted by the clock because both the upper
+
+91
+00:08:02,466 --> 00:08:08,900
+and the lower coupling take place and the result is the one.
+
+92
+00:08:10,600 --> 00:08:14,433
+So we have fully verified the AND gate
+
+93
+00:08:14,433 --> 00:08:18,433
+and next we look at the XOR gate.
+
+94
+00:08:18,833 --> 00:08:22,033
+To do this, we first have to dissolve the AND gate,
+
+95
+00:08:22,233 --> 00:08:25,833
+then remove the coupling sheet and
+
+96
+00:08:25,833 --> 00:08:29,233
+finally replace it with two new sheets
+
+97
+00:08:29,333 --> 00:08:33,100
+that have the correct cutouts for the XOR operation.
+
+98
+00:08:33,866 --> 00:08:40,066
+The sheets are then finally reconnected by the switch pins and voila...
+
+99
+00:08:40,200 --> 00:08:44,366
+Our exclusive OR gate is fully assembled!
+
+100
+00:08:44,633 --> 00:08:48,200
+The truth table this time looks like this:
+
+101
+00:08:48,400 --> 00:08:54,600
+If A and B are equal, the result is zero.
+
+102
+00:08:54,600 --> 00:09:00,200
+If A and B are not equal, the XOR operation results in one.
+
+103
+00:09:00,766 --> 00:09:03,600
+So back to testing our circuit...
+
+104
+00:09:04,566 --> 00:09:08,266
+Zero XOR zero
+
+105
+00:09:08,700 --> 00:09:13,600
+equals zero!
+
+106
+00:09:17,100 --> 00:09:22,600
+Zero XOR one
+
+107
+00:09:22,800 --> 00:09:26,400
+equals one.
+
+108
+00:09:27,300 --> 00:09:30,000
+Now you have seen that the right
+
+109
+00:09:30,000 --> 00:09:35,166
+sheet takes over the coupling if A and B are not equal.
+
+110
+00:09:38,566 --> 00:09:40,366
+And it continues with...
+
+111
+00:09:40,366 --> 00:09:45,133
+One XOR zero also
+
+112
+00:09:46,466 --> 00:09:47,600
+equals
+
+113
+00:09:48,400 --> 00:09:51,033
+one.
+
+114
+00:09:51,033 --> 00:09:54,900
+This time the left sheet takes over the coupling.
+
+115
+00:09:55,733 --> 00:09:57,666
+All that remains is...
+
+116
+00:10:00,100 --> 00:10:05,533
+One XOR one,
+
+117
+00:10:06,466 --> 00:10:09,966
+which then equals zero again.
+
+118
+00:10:10,800 --> 00:10:15,200
+Now that we have implemented the logical operations AND and XOR,
+
+119
+00:10:15,466 --> 00:10:18,033
+we are still missing the simple switch.
+
+120
+00:10:18,466 --> 00:10:23,066
+This consists of a clock and an output sheet,
+
+121
+00:10:23,066 --> 00:10:28,533
+both of which can move horizontally, and an input sheet,
+
+122
+00:10:28,533 --> 00:10:31,200
+which is aligned vertically.
+
+123
+00:10:31,966 --> 00:10:36,533
+All three sheets are of course connected again with a switch pin.
+
+124
+00:10:36,900 --> 00:10:43,466
+In the inactive state, the clock and output sheets are not coupled and the pulse
+
+125
+00:10:43,466 --> 00:10:46,200
+is accordingly not forwarded.
+
+126
+00:10:46,700 --> 00:10:49,466
+If the switch is active,
+
+127
+00:10:50,033 --> 00:10:53,800
+the clock pulse is forwarded.
+
+128
+00:10:55,066 --> 00:10:58,366
+With the three switching elements described, we now have all
+
+129
+00:10:58,366 --> 00:11:02,733
+the ingredients for the Hünfeld adder model.
+
+130
+00:11:02,733 --> 00:11:06,900
+In the following we now explain step by step how the adder is constructed.
+
+131
+00:11:07,200 --> 00:11:13,466
+We start for this at the top right, where an AND and an XOR gate are installed.
+
+132
+00:11:13,466 --> 00:11:19,400
+The circuit has two inputs, namely A1 and B1.
+
+133
+00:11:20,100 --> 00:11:28,600
+Then there are two outputs, namely R for the result of the sum and U for the carry.
+
+134
+00:11:29,100 --> 00:11:33,200
+The gates are activated via the first clock sheet.
+
+135
+00:11:34,066 --> 00:11:40,033
+And here again the truth table for the circuit, which nowadays, by the way,
+
+136
+00:11:40,300 --> 00:11:43,000
+is called a half adder.
+
+137
+00:11:43,000 --> 00:11:48,133
+This component therefore has two inputs,
+
+138
+00:11:48,133 --> 00:11:51,033
+namely the first summand A1
+
+139
+00:11:51,633 --> 00:11:54,733
+and the second summand B1.
+
+140
+00:11:55,333 --> 00:11:58,166
+Then we have two outputs,
+
+141
+00:11:58,166 --> 00:12:04,300
+namely the sum R and the carry U.
+
+142
+00:12:05,000 --> 00:12:08,366
+Next we test the circuit...
+
+143
+00:12:09,633 --> 00:12:12,200
+Zero plus zero
+
+144
+00:12:12,700 --> 00:12:14,533
+equals
+
+145
+00:12:16,800 --> 00:12:18,466
+zero!
+
+146
+00:12:18,600 --> 00:12:21,466
+And the carry is also zero.
+
+147
+00:12:22,133 --> 00:12:27,266
+Both AND and XOR do not foward the clock pulse.
+
+148
+00:12:29,000 --> 00:12:35,000
+In the second line we set A1 to zero
+
+149
+00:12:35,466 --> 00:12:39,600
+and B1 to one.
+
+150
+00:12:40,300 --> 00:12:43,600
+This activates the XOR gate
+
+151
+00:12:44,000 --> 00:12:45,700
+and the clock
+
+152
+00:12:45,700 --> 00:12:47,833
+is forwarded.
+
+153
+00:12:48,966 --> 00:12:52,933
+The result is one and the carry
+
+154
+00:12:52,933 --> 00:12:55,633
+stays at zero.
+
+155
+00:12:56,000 --> 00:12:57,900
+The same applies to
+
+156
+00:12:59,366 --> 00:13:03,433
+one plus zero.
+
+157
+00:13:04,466 --> 00:13:06,700
+Let's look at the
+
+158
+00:13:06,900 --> 00:13:10,366
+last row of the truth table.
+
+159
+00:13:12,600 --> 00:13:15,333
+One and
+
+160
+00:13:16,666 --> 00:13:18,333
+one
+
+161
+00:13:18,400 --> 00:13:21,333
+activates the AND gate this time
+
+162
+00:13:22,000 --> 00:13:24,266
+and the clock causes
+
+163
+00:13:24,466 --> 00:13:27,366
+the carry to set.
+
+164
+00:13:28,966 --> 00:13:31,733
+The sum stays at zero.
+
+165
+00:13:36,733 --> 00:13:39,733
+So our half adder seems to be working.
+
+166
+00:13:40,200 --> 00:13:44,333
+He can add a binary digit correctly and determine the carry.
+
+167
+00:13:44,700 --> 00:13:48,766
+The circuit would already be sufficient for the last digit of a binary number.
+
+168
+00:13:49,200 --> 00:13:55,300
+From the penultimate position, however, the carry of the previous addition must still be taken into account.
+
+169
+00:13:55,733 --> 00:14:00,633
+In order to achieve that, we need to expand the circuit a bit.
+
+170
+00:14:01,500 --> 00:14:04,633
+Here again the logical representation of our half adder
+
+171
+00:14:04,633 --> 00:14:09,266
+with the summands A1 and B1
+
+172
+00:14:09,466 --> 00:14:14,433
+and as a result the sum R and carry U.
+
+173
+00:14:14,766 --> 00:14:22,166
+In addition to A1 and B1 we now get the carry U1 as a third input,
+
+174
+00:14:22,733 --> 00:14:26,466
+which comes from the addition of the previous digit.
+
+175
+00:14:26,700 --> 00:14:32,566
+The new sum R1 and the new carry U2
+
+176
+00:14:32,566 --> 00:14:38,400
+must then be calculated from A1, B1 and U1 using additional logic.
+
+177
+00:14:38,600 --> 00:14:43,333
+The truth table now has one more column.
+
+178
+00:14:43,633 --> 00:14:48,266
+By the way, we are now in the process of building a so-called full adder,
+
+179
+00:14:48,633 --> 00:14:54,300
+with the abbreviation FA for (English) "Full Adder".
+
+180
+00:14:55,366 --> 00:14:58,200
+First of all, let's look
+
+181
+00:14:58,200 --> 00:15:03,700
+at the calculation of the sum R1, which becomes one whenever exactly one input
+
+182
+00:15:03,700 --> 00:15:09,033
+A1, B1 or U1 is set, or all three together.
+
+183
+00:15:09,300 --> 00:15:12,833
+This behavior can be achieved with another XOR gate,
+
+184
+00:15:13,200 --> 00:15:19,166
+into which we feed the carry U1 and the result of the first XOR operation.
+
+185
+00:15:19,166 --> 00:15:25,533
+The upper XOR gate switches whenever either A1 or B1 is set.
+
+186
+00:15:25,833 --> 00:15:34,300
+For U1 equal to zero, the second XOR then switches and the end result is one.
+
+187
+00:15:34,466 --> 00:15:39,900
+If A1 and B1 are zero and U1 is set,
+
+188
+00:15:40,200 --> 00:15:45,366
+the lower XOR also switches and the result is one again.
+
+189
+00:15:46,300 --> 00:15:50,800
+Now the question arises how the information from the first XOR gate
+
+190
+00:15:51,166 --> 00:15:53,966
+can mechanically get into the second.
+
+191
+00:15:54,200 --> 00:15:58,000
+After all, the impulse has to come around the corner somehow.
+
+192
+00:15:58,466 --> 00:16:03,566
+This feat is achieved by a second clock sheet and a switch.
+
+193
+00:16:04,100 --> 00:16:07,000
+Let's demonstrate how this works in principle
+
+194
+00:16:07,000 --> 00:16:11,533
+and take row three of the truth table:
+
+195
+00:16:11,533 --> 00:16:18,600
+Zero plus one activates the XOR gate.
+
+196
+00:16:19,600 --> 00:16:23,266
+Then the first beat is triggered
+
+197
+00:16:23,633 --> 00:16:26,233
+and the switch is flipped.
+
+198
+00:16:27,000 --> 00:16:30,633
+In cycle 2, the information
+
+199
+00:16:30,633 --> 00:16:37,800
+from the first XOR is then shifted into the second XOR via the switch and activates it.
+
+200
+00:16:38,866 --> 00:16:41,400
+The impulse flowed around the corner.
+
+201
+00:16:41,766 --> 00:16:49,233
+Now we need a third clock sheet to trigger the second XOR gate
+
+202
+00:16:49,466 --> 00:16:53,300
+and calculate the correct result.
+
+203
+00:16:54,000 --> 00:16:59,900
+Now that we can calculate the result R1, the carry U2 is still missing.
+
+204
+00:17:00,533 --> 00:17:08,933
+This returns one if both A1 and B1 are set, which then activates the AND gate.
+
+205
+00:17:09,833 --> 00:17:12,466
+In this case, the information is again
+
+206
+00:17:12,466 --> 00:17:17,133
+pushed around the corner with the help of a switch from clock 2.
+
+207
+00:17:17,833 --> 00:17:22,933
+The cases where either A1 or B1 are set,
+
+208
+00:17:23,400 --> 00:17:26,266
+which activates the upper XOR, are still missing.
+
+209
+00:17:26,700 --> 00:17:31,700
+In addition, there is the carry U1 from the previous position.
+
+210
+00:17:32,433 --> 00:17:36,433
+The forwarding of the carry is easily realized by
+
+211
+00:17:36,733 --> 00:17:41,700
+shifting the upper XOR information from U1 to U2 with the help of another switch,
+
+212
+00:17:41,700 --> 00:17:47,166
+which of course is again taken over by clock sheet 2.
+
+213
+00:17:47,733 --> 00:17:52,700
+Thus, our full adder is complete and can now
+
+214
+00:17:52,700 --> 00:17:57,133
+serve as a basic element for theoretically any number of places in an adder.
+
+215
+00:17:58,500 --> 00:18:01,933
+The Hünfeld model uses two binary digits.
+
+216
+00:18:02,166 --> 00:18:07,633
+So let's copy our full adder once and adjust the labels.
+
+217
+00:18:08,500 --> 00:18:14,166
+Then we connect the two parts using the transfer plate U2.
+
+218
+00:18:14,600 --> 00:18:19,200
+So finally our 2-bit adder is complete now with the following truth table:
+
+219
+00:18:19,633 --> 00:18:23,433
+Let's first calculate an example without a carry.
+
+220
+00:18:23,733 --> 00:18:31,166
+What about two plus one?
+
+221
+00:18:31,433 --> 00:18:34,766
+The input triggers the two XOR gates.
+
+222
+00:18:35,000 --> 00:18:39,966
+Then clock 1 activates the four switches.
+
+223
+00:18:40,333 --> 00:18:44,566
+Clock 2 pushes the XOR information around the corner
+
+224
+00:18:44,733 --> 00:18:48,233
+and activates the lower XOR gates.
+
+225
+00:18:48,600 --> 00:18:52,533
+Finally, the third clock evaluates the result,
+
+226
+00:18:52,800 --> 00:18:59,033
+which, as expected, is 001 in binary or three in decimal.
+
+227
+00:18:59,633 --> 00:19:03,200
+In this case, the carry chain has not yet been used.
+
+228
+00:19:03,600 --> 00:19:09,866
+So finally we do the example from the beginning with the carry over, so...
+
+229
+00:19:11,333 --> 00:19:12,433
+three
+
+230
+00:19:13,100 --> 00:19:14,100
+plus
+
+231
+00:19:15,233 --> 00:19:16,533
+one.
+
+232
+00:19:16,766 --> 00:19:23,000
+The input activates the first XOR and the second AND gate.
+
+233
+00:19:23,600 --> 00:19:29,333
+Clock 1 triggers the switches for the carry chain,
+
+234
+00:19:29,333 --> 00:19:35,733
+as well as the switch to calculate the carry U2 with the second digit.
+
+235
+00:19:36,000 --> 00:19:40,700
+Clock 2 shifts the carry to U3.
+
+236
+00:19:40,866 --> 00:19:45,700
+And clock 3 then has no further effect.
+
+237
+00:19:45,933 --> 00:19:53,233
+The result is correctly binary 100 or decimal four.
+
+238
+00:19:54,300 --> 00:19:55,200
+Done!
+
+239
+00:19:55,966 --> 00:20:00,000
+Konrad Zuse has really designed a pretty ingenious thing:
+
+240
+00:20:00,533 --> 00:20:04,966
+The world's first binary adder!
+
+241
+00:20:05,700 --> 00:20:07,033
+His colleagues
+
+242
+00:20:07,033 --> 00:20:08,766
+Wilhelm Schickard and...
+
+243
+00:20:08,766 --> 00:20:10,766
+Gottfried Wilhelm Leibniz
+
+244
+00:20:10,766 --> 00:20:17,666
+would no doubt applaud now vigorously!
+
