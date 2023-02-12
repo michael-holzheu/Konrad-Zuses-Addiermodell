@@ -1,0 +1,41 @@
+Der Computerpionier Konrad Zuse hat bereits 1937 mit seiner Z1 das erste binäre Addierwerk der Welt verwirklicht. Dieser Film erklärt anhand des Modells aus dem Konrad-Zuse-Museum Hünfeld, wie dieses in etwa ausgesehen haben könnte. Dabei wird auch der prinzipielle Aubau der Grundbausteine AND, XOR und Schalter sowie die Funktionsweise von Halbaddierer und Volladdierer beschrieben.
+
+Sprungmarken:
+
+00:33 Wilhelm Schickards Rechenmaschine
+01:29 Binärsystem von Gottfried Wilhelm Leibniz
+03:00 Konrad Zuses Z1
+04:14 AND-Gatter
+08:10 XOR-Gatter
+10:10 Schalter
+10:54 Halbaddierer
+13:36 Volladdierer
+17:57 2-Bit Addierwerk
+19:53 Schluss
+
+Empfohlene Playlists:
+
+- Computer einfach erklärt: https://www.youtube.com/playlist?list=PLJypwS0fbmEbAbW0CFfi9Kd0XOF89TE_L
+- Computermuseen: https://www.youtube.com/playlist?list=PLJypwS0fbmEaEehalAbzVH1NWrPW97xyr
+
+Links:
+
+- Beschreibung des Hünfelder Addiermodells: http://www2.hs-fulda.de/~grams/mathehilft
+- Vorführung des realen Modells: https://youtu.be/uJ5rNqk3Utk
+
+Verwendete Musik:
+
+- Banjos, Unite! (Alexander Nakarada):  https://filmmusic.io/song/4779-banjos-unite-
+- Welcome to the machine (Pink Floyd): https://youtu.be/UD88X5Y_iYE
+- Toxic Instrumental (Britney Spears): https://youtu.be/qnW80rbHmc8
+- Work Bitch Instrumental (Britney Spears): https://youtu.be/lr2pugHoFXs
+- Work Bitch (Britney Spears): https://youtu.be/pt8VYOfr8To
+
+Versionsverwaltung:
+
+- GitHub: https://github.com/michael-holzheu/Konrad-Zuses-Addiermodell
+
+Änderungsprotokoll:
+
+- 23.04.2020 Erste Version
+- 24.04.2020 Kleinere Verbesserungen
