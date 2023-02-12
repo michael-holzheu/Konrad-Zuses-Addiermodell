@@ -3,7 +3,7 @@
 Hier wird ein Zwei-Bit-Addierwerk vorgestellt, das auf den Ideen von
 Konrad Zuse basiert:
 
-[![Konrad Zuses Addiermodell](https://github.com/michael-holzheu/Konrad-Zuses-Addiermodell/raw/main/Bilder/Konrad-Zuses-Addiermodell-4-3.jpg)](https://youtu.be/PWj7toEOOG8)
+[![Konrad Zuses Addiermodell](https://github.com/michael-holzheu/Konrad-Zuses-Addiermodell/raw/main/Pictures/Konrad-Zuses-Addiermodell-4-3.jpg)](https://youtu.be/PWj7toEOOG8)
 
 ## Projekt Inhalt
 
