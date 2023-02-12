@@ -29,7 +29,10 @@ MICHAEL:   Speaker
 
 Log
 ---
+00:01 ATTRIBUTE Music: Work Bitch Instrumental (Britney Spears)
+		LINK: 15:57
 00:33 TOC	Die Rechenmaschine von Wilhelm Schickard
+00:40 ATTRIBUTE Music: Banjos, Unite! (Alexander Nakarada)
 00:41 PERSON	Wilhilm Schickard
 		LINK: https://de.wikipedia.org/wiki/Wilhelm_Schickard
 00:45 CLAIM	Schickards Rechenmaschine arbeitet mit Zahnrädern im Dezimalsystem
@@ -53,6 +56,7 @@ Log
 02:57 TOC	Die binäre Rechenmaschine Z1
 02:57 THING	Zuse Z1
 		LINK: https://de.wikipedia.org/wiki/Z1_(Rechner)
+03:02 ATTRIBUTE Music: Welcome to the machine (Pink Floyd)
 03:10 PERSON	Konrad Zuse
 		LINK: https://de.wikipedia.org/wiki/Konrad_Zuse
 03:27 WORD	Rechenwerk
@@ -92,6 +96,7 @@ Log
 10:11 WORD	Schalter/Identität
 		LINK: https://de.wikipedia.org/wiki/Identische_Abbildung
 		EN: Switch
+10:18 ATTRIBUTE Music: Toxic Instrumental (Britney Spears)
 10:55 TOC	Aufbau der Addierschaltung mit AND-, XOR- und Schalter
 11:07 TOC       Aufbau Halbaddierer
 11:33 WORD	Halbaddierer
@@ -105,3 +110,4 @@ Log
 17:47 TOC	N-Bit Addierer aus Volladdierer
 19:01 WORD	Übertragskette
 		EN: Carry chain
+10:17 ATTRIBUTE Music: Work Bitch (Britney Spears)
