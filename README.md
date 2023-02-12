@@ -7,7 +7,7 @@ Konrad Zuse basiert:
 
 ## Projekt Inhalt
 
-- [Analyse](https://github.com/michael-holzheu/Konrad-Zuses-Addiermodell/tree/main/Analysis)
+- [Analyse](https://github.com/michael-holzheu/Konrad-Zuses-Addiermodell/tree/main/Analysis/Analyis-de.txt)
 - [Untertitel](https://github.com/michael-holzheu/Konrad-Zuses-Addiermodell/tree/main/Subtitles)
 
 ## Weitere Informationen
