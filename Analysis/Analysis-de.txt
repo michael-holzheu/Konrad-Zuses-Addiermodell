@@ -54,6 +54,7 @@ Log
 02:57 THING	Zuse Z1
 		LINK: https://de.wikipedia.org/wiki/Z1_(Rechner)
 03:10 PERSON	Konrad Zuse
+		LINK: https://de.wikipedia.org/wiki/Konrad_Zuse
 03:27 WORD	Rechenwerk
 03:28 WORD	Addiereinheit
 03:38 THING     Konrad-Zuse-Museum Hünfeld
