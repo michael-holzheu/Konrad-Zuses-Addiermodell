@@ -1,0 +1,976 @@
+1
+00:00:34,133 --> 00:00:41,266
+Umri wa kuhesabu kiotomatiki huanza mnamo 1623,
+
+2
+00:00:41,266 --> 00:00:45,000
+wakati Wilhelm Schickard anamaliza mashine yake ya kuhesabu ya mbao.
+
+3
+00:00:45,600 --> 00:00:51,100
+Mashine hii hutumia gia na inafanya kazi katika mfumo wa desimali.
+
+4
+00:00:51,700 --> 00:00:56,333
+Gia mbili zinaweza kuwakilisha nambari ya tarakimu mbili.
+
+5
+00:00:57,066 --> 00:01:01,100
+Utunzaji wa kubeba wakati wa kuongeza unafanywa
+
+6
+00:01:01,500 --> 00:01:04,400
+kwa msaada wa pini na gurudumu lingine la gear.
+
+7
+00:01:04,566 --> 00:01:06,900
+Inakwenda hivi...
+
+8
+00:01:08,066 --> 00:01:10,700
+Kumi Beba juu ya "Moja" na...
+
+9
+00:01:11,900 --> 00:01:14,266
+Beba juu ya "Wawili"...
+
+10
+00:01:15,533 --> 00:01:17,566
+Na...
+
+11
+00:01:17,700 --> 00:01:21,433
+Beba "Watatu" hufanya jumla ya 30!
+
+12
+00:01:22,900 --> 00:01:25,466
+Kama unaweza kuona, gia ni
+
+13
+00:01:25,500 --> 00:01:28,433
+nzuri sana kwa kuongeza katika mfumo wa desimali.
+
+14
+00:01:29,600 --> 00:01:33,466
+Hata hivyo, kompyuta za leo zote zinafanya kazi katika mfumo wa binary,
+
+15
+00:01:34,133 --> 00:01:38,366
+ambao ulirekodiwa na Gottfried Wilhelm Leibniz mwishoni mwa karne ya 17,
+
+16
+00:01:38,366 --> 00:01:42,400
+karibu miaka 75 baada ya uvumbuzi wa Schickard.
+
+17
+00:01:43,200 --> 00:01:45,900
+Kama mfano, Herr Leibniz sasa anatuonyesha jinsi ya
+
+18
+00:01:46,266 --> 00:01:50,166
+kukokotoa 3 + 1 katika mfumo wake wa binary.
+
+19
+00:01:51,000 --> 00:01:57,266
+3 inawakilishwa kama 1 * 2^1 + 1 * 2^0, yaani
+
+20
+00:01:57,833 --> 00:02:01,766
+1 * 2 + 1 * 1.
+
+21
+00:02:02,066 --> 00:02:07,833
+1 inalingana na 0 * 2 + 1 * 1.
+
+22
+00:02:08,566 --> 00:02:12,633
+Tunaunda jumla kwa kuandika nambari mbili moja chini ya nyingine.
+
+23
+00:02:13,633 --> 00:02:17,966
+Kama vile tulivyojifunza shuleni kwa mfumo wa desimali.
+
+24
+00:02:19,200 --> 00:02:24,700
+Kwa hivyo 1 + 1 = 0 ... 1 alibainisha!
+
+25
+00:02:25,433 --> 00:02:30,666
+1 + (imekumbukwa) 1 = 0 Na tena 1 alikumbuka!
+
+26
+00:02:31,100 --> 00:02:36,366
+Hatimaye, 0 + 1 = 1...
+
+27
+00:02:36,366 --> 00:02:41,800
+Kwa hivyo jumla ni 2 * 2^2 au 1 * 4,
+
+28
+00:02:42,200 --> 00:02:45,933
+au desimali nne tu!
+
+29
+00:02:46,966 --> 00:02:50,800
+Katika hesabu tuliona kwamba tunapaswa
+
+30
+00:02:51,100 --> 00:02:56,533
+kuchukua kubeba kutoka chini hadi tarakimu ya juu katika akaunti mara mbili.
+
+31
+00:02:57,066 --> 00:03:00,300
+Tutakutana na dhana hii mara kadhaa katika zifuatazo.
+
+32
+00:03:00,900 --> 00:03:04,000
+Kwa hivyo sasa tunakuja kwenye ulimwengu wa kisasa wa teknolojia
+
+33
+00:03:04,000 --> 00:03:10,166
+na kikokotoo cha kwanza cha binary katika ulimwengu unaojulikana, yaani Z1!
+
+34
+00:03:10,366 --> 00:03:13,500
+Konrad Zuse alikusanya kazi yake
+
+35
+00:03:13,866 --> 00:03:18,933
+mnamo 1937 kutoka kwa maelfu ya sehemu za karatasi.
+
+36
+00:03:19,500 --> 00:03:23,800
+Hapa tunaona nakala kutoka kwa Technikmuseum huko Berlin.
+
+37
+00:03:24,800 --> 00:03:29,666
+Sehemu hii hapa, kwa mfano, inatekeleza kitengo cha hesabu na kitengo cha kuongeza.
+
+38
+00:03:30,300 --> 00:03:34,300
+Kwa kuzingatia wingi wa vipengele vya mtu binafsi, inaonekana vigumu
+
+39
+00:03:34,533 --> 00:03:38,233
+kuelewa jinsi ajabu hii inavyopaswa kufanya kazi katika msingi wake.
+
+40
+00:03:38,600 --> 00:03:41,933
+Kwa bahati nzuri, hata hivyo, kuna
+
+41
+00:03:41,933 --> 00:03:47,766
+mfano katika Jumba la Makumbusho la Zuse huko Hünfeld ambalo linaonyesha wazi kanuni za msingi.
+
+42
+00:03:48,833 --> 00:03:54,400
+Ili kutekeleza kazi ya adder, Zuse alitumia aina tatu za vipengele,
+
+43
+00:03:54,400 --> 00:03:55,633
+yaani ...
+
+44
+00:03:55,633 --> 00:03:58,233
+NA na XOR milango,
+
+45
+00:03:58,433 --> 00:04:01,200
+pamoja na vipengele rahisi vya kubadili.
+
+46
+00:04:02,033 --> 00:04:05,433
+Mfano huo ni sawa na mzunguko wa adder
+
+47
+00:04:05,433 --> 00:04:10,100
+ambao Konrad Zuse mwenyewe alichora.
+
+48
+00:04:15,166 --> 00:04:17,700
+Katika yafuatayo, kwa hiyo tutaeleza kwanza muundo
+
+49
+00:04:17,700 --> 00:04:22,466
+wa vipengele hivi vitatu vya msingi, tukianza na lango NA.
+
+50
+00:04:22,933 --> 00:04:31,166
+Hii ina pembejeo mbili A na B na pato ambalo linawakilisha matokeo.
+
+51
+00:04:31,500 --> 00:04:37,533
+Jedwali la ukweli la operesheni ya AND linafafanua matokeo kwa kila A na B inayowezekana.
+
+52
+00:04:37,800 --> 00:04:43,133
+Wakati A na B ni moja tu ndipo pato pia ni moja.
+
+53
+00:04:43,533 --> 00:04:48,733
+Kwa visa vingine vyote tunapata sifuri.
+
+54
+00:04:48,900 --> 00:04:56,833
+Hebu tuangalie jinsi Konrad Zuse alivyotekeleza operesheni hii kwa kutumia sehemu zake za chuma.
+
+55
+00:04:57,700 --> 00:05:01,533
+Ili tusipoteze uelekeo, tunatumia
+
+56
+00:05:01,533 --> 00:05:06,466
+upangaji wa mlalo na wima kama ilivyo katika muundo wa Hünfeld.
+
+57
+00:05:07,700 --> 00:05:12,300
+Sahani A na B hutumiwa kwa pembejeo,
+
+58
+00:05:12,700 --> 00:05:16,400
+ambayo inaweza kuhamia kulia na kushoto kwa mtiririko huo ...
+
+59
+00:05:16,833 --> 00:05:23,166
+Na hivyo kufanya moja au sifuri kubadilishwa.
+
+60
+00:05:24,000 --> 00:05:30,400
+Kwa matokeo kuna karatasi ya pato, ambayo inahamishwa kwa mwelekeo wa wima
+
+61
+00:05:30,733 --> 00:05:35,700
+na matokeo yanaweza kuwakilisha sifuri na moja.
+
+62
+00:05:37,133 --> 00:05:43,433
+Mantiki halisi ya kuunganisha inatekelezwa kupitia kinachojulikana sahani ya kuunganisha,
+
+63
+00:05:43,733 --> 00:05:47,466
+ambayo ina cutouts maalum kwa ajili ya operesheni ya AND
+
+64
+00:05:47,733 --> 00:05:52,133
+na pia huenda kwa mwelekeo wa wima.
+
+65
+00:05:54,166 --> 00:05:58,000
+Kisha karatasi tatu zimewekwa juu ya kila mmoja
+
+66
+00:05:58,233 --> 00:06:01,700
+na kuunganishwa kwa kila mmoja kwa pini mbili za kubadili.
+
+67
+00:06:02,566 --> 00:06:06,200
+Tunafikia athari sawa katika mchoro uliolipuka
+
+68
+00:06:06,466 --> 00:06:10,166
+kwa kutumia pini zilizounganishwa kwa mlalo.
+
+69
+00:06:10,766 --> 00:06:16,033
+Kinachokosekana bado ni utaratibu wa kusababisha mzunguko wa AND.
+
+70
+00:06:16,600 --> 00:06:20,400
+Kwa hili, Konrad Zuse alitoa sahani ya indexing,
+
+71
+00:06:20,766 --> 00:06:26,300
+ambayo, kama sahani ya pato, inaweza kusonga wima.
+
+72
+00:06:27,733 --> 00:06:31,100
+Sasa tunaangalia ikiwa mzunguko unafanya kazi kwa usahihi
+
+73
+00:06:31,466 --> 00:06:35,533
+na kuanza na safu ya kwanza ya jedwali la ukweli.
+
+74
+00:06:35,866 --> 00:06:40,666
+Kama ingizo tunatumia sifuri kwa A na sifuri kwa B.
+
+75
+00:06:41,433 --> 00:06:45,100
+Kisha pigo la saa linasababishwa.
+
+76
+00:06:45,600 --> 00:06:50,566
+Kwa sababu uunganisho wa juu haufanyiki, karatasi ya pato pia inabaki
+
+77
+00:06:50,566 --> 00:06:55,233
+katika nafasi yake ya awali na matokeo ni sifuri.
+
+78
+00:06:55,766 --> 00:06:58,666
+Sasa mstari wa pili ...
+
+79
+00:06:59,633 --> 00:07:02,766
+sifuri na ...
+
+80
+00:07:02,766 --> 00:07:04,333
+moja ...
+
+81
+00:07:04,433 --> 00:07:08,500
+ni sifuri tena
+
+82
+00:07:09,066 --> 00:07:13,466
+kwa sababu uunganisho wa juu haujaamilishwa tena.
+
+83
+00:07:14,433 --> 00:07:17,366
+Sasa kwa mstari wa tatu ...
+
+84
+00:07:18,133 --> 00:07:24,133
+Tunaweka pembejeo A hadi moja na B hadi sifuri.
+
+85
+00:07:24,966 --> 00:07:29,533
+Wakati huu mapigo ya saa husogeza bati la kuunganisha.
+
+86
+00:07:29,966 --> 00:07:37,933
+Hata hivyo, kwa sababu uunganisho wa chini haufanyiki, karatasi ya pato tena inabaki kwenye sifuri.
+
+87
+00:07:38,933 --> 00:07:43,166
+Hatimaye, tunajaribu safu ya mwisho ya jedwali
+
+88
+00:07:43,600 --> 00:07:46,833
+na kuweka pembejeo zote A
+
+89
+00:07:48,500 --> 00:07:53,200
+na B hadi moja.
+
+90
+00:07:54,400 --> 00:08:02,300
+Sahani ya pato sasa inabadilishwa na saa kwa sababu
+
+91
+00:08:02,466 --> 00:08:08,900
+unganisho la juu na la chini hufanyika na matokeo yake ni moja.
+
+92
+00:08:10,600 --> 00:08:14,433
+Kwa hivyo tumethibitisha kikamilifu lango la AND
+
+93
+00:08:14,433 --> 00:08:18,433
+na kinachofuata tunaangalia lango la XOR.
+
+94
+00:08:18,833 --> 00:08:22,033
+Ili kufanya hivyo, kwanza tunapaswa kufuta lango la AND,
+
+95
+00:08:22,233 --> 00:08:25,833
+kisha tuondoe sahani ya kuunganisha na
+
+96
+00:08:25,833 --> 00:08:29,233
+hatimaye kuibadilisha na sahani mbili mpya
+
+97
+00:08:29,333 --> 00:08:33,100
+ambazo zina vipunguzi sahihi kwa uendeshaji wa XOR.
+
+98
+00:08:33,866 --> 00:08:40,066
+Kisha laha huunganishwa tena kwa pini za kubadili na voila...
+
+99
+00:08:40,200 --> 00:08:44,366
+Lango letu la kipekee AU limeunganishwa kikamilifu!
+
+100
+00:08:44,633 --> 00:08:48,200
+Jedwali la ukweli wakati huu linaonekana kama hii:
+
+101
+00:08:48,400 --> 00:08:54,600
+Ikiwa A na B ni sawa, matokeo ni sifuri.
+
+102
+00:08:54,600 --> 00:09:00,200
+Ikiwa A na B si sawa, operesheni ya XOR husababisha moja.
+
+103
+00:09:00,766 --> 00:09:03,600
+Kwa hivyo rudi kupima mzunguko wetu...
+
+104
+00:09:04,566 --> 00:09:08,266
+Sifuri XOR Sifuri
+
+105
+00:09:08,700 --> 00:09:13,600
+ni sawa na sifuri!
+
+106
+00:09:17,100 --> 00:09:22,600
+Sifuri XOR moja
+
+107
+00:09:22,800 --> 00:09:26,400
+ni sawa na moja.
+
+108
+00:09:27,300 --> 00:09:30,000
+Sasa umeona kwamba
+
+109
+00:09:30,000 --> 00:09:35,166
+karatasi sahihi inachukua uunganisho ikiwa A na B si sawa.
+
+110
+00:09:38,566 --> 00:09:40,366
+Na inaendelea na...
+
+111
+00:09:40,366 --> 00:09:45,133
+Sufuri moja XOR pia
+
+112
+00:09:46,466 --> 00:09:47,600
+ni sawa na
+
+113
+00:09:48,400 --> 00:09:51,033
+moja.
+
+114
+00:09:51,033 --> 00:09:54,900
+Wakati huu karatasi ya kushoto inachukua kuunganisha.
+
+115
+00:09:55,733 --> 00:09:57,666
+Kilichobaki ni...
+
+116
+00:10:00,100 --> 00:10:05,533
+Moja XOR One,
+
+117
+00:10:06,466 --> 00:10:09,966
+ambayo kisha ni sawa na sifuri tena.
+
+118
+00:10:10,800 --> 00:10:15,200
+Sasa kwa kuwa tumetekeleza shughuli za kimantiki AND na XOR,
+
+119
+00:10:15,466 --> 00:10:18,033
+bado tunakosa swichi rahisi.
+
+120
+00:10:18,466 --> 00:10:23,066
+Hii inajumuisha muda na trei ya kutoa,
+
+121
+00:10:23,066 --> 00:10:28,533
+zote mbili zinaweza kusogea kwa mlalo, na trei ya kuingiza data,
+
+122
+00:10:28,533 --> 00:10:31,200
+ambayo imepangiliwa wima.
+
+123
+00:10:31,966 --> 00:10:36,533
+Laha zote tatu bila shaka zimeunganishwa tena kwa pini ya kubadili.
+
+124
+00:10:36,900 --> 00:10:43,466
+Katika hali ya kutofanya kazi, saa na karatasi za matokeo hazijaunganishwa na mapigo
+
+125
+00:10:43,466 --> 00:10:46,200
+hayajabadilishwa.
+
+126
+00:10:46,700 --> 00:10:49,466
+Ikiwa swichi inatumika,
+
+127
+00:10:50,033 --> 00:10:53,800
+mpigo wa saa hutumwa mbele.
+
+128
+00:10:55,066 --> 00:10:58,366
+Kwa vipengele vitatu vya kubadili vilivyoelezwa, sasa tuna
+
+129
+00:10:58,366 --> 00:11:02,733
+viungo vyote vya modeli ya kuongeza ya Hünfeld.
+
+130
+00:11:02,733 --> 00:11:06,900
+Katika ifuatayo sasa tunaelezea hatua kwa hatua jinsi adder hujengwa.
+
+131
+00:11:07,200 --> 00:11:13,466
+Tunaanza kwa hili juu kulia, ambapo NA na lango la XOR limewekwa.
+
+132
+00:11:13,466 --> 00:11:19,400
+Mzunguko una pembejeo mbili, yaani A1 na B1.
+
+133
+00:11:20,100 --> 00:11:28,600
+Kisha kuna matokeo mawili, yaani R kwa matokeo ya jumla na U kwa kubeba.
+
+134
+00:11:29,100 --> 00:11:33,200
+Milango imewashwa kupitia bati la saa la kwanza.
+
+135
+00:11:34,066 --> 00:11:40,033
+Na hapa tena meza ya ukweli kwa mzunguko, ambayo siku hizi, kwa njia,
+
+136
+00:11:40,300 --> 00:11:43,000
+inaitwa nusu-adder.
+
+137
+00:11:43,000 --> 00:11:48,133
+Kipengele hiki kwa hiyo kina pembejeo mbili,
+
+138
+00:11:48,133 --> 00:11:51,033
+yaani muhtasari wa kwanza A1
+
+139
+00:11:51,633 --> 00:11:54,733
+na muhtasari wa pili B1.
+
+140
+00:11:55,333 --> 00:11:58,166
+Kisha tuna matokeo mawili,
+
+141
+00:11:58,166 --> 00:12:04,300
+yaani jumla ya R na kubeba U.
+
+142
+00:12:05,000 --> 00:12:08,366
+Kisha tunajaribu mzunguko ...
+
+143
+00:12:09,633 --> 00:12:12,200
+sifuri pamoja na sifuri
+
+144
+00:12:12,700 --> 00:12:14,533
+ni sawa na
+
+145
+00:12:16,800 --> 00:12:18,466
+sifuri!
+
+146
+00:12:18,600 --> 00:12:21,466
+Na kubeba pia ni sifuri.
+
+147
+00:12:22,133 --> 00:12:27,266
+AND na XOR zote mbili hazipitishi mapigo ya saa.
+
+148
+00:12:29,000 --> 00:12:35,000
+Katika mstari wa pili tunaweka A1 hadi sifuri
+
+149
+00:12:35,466 --> 00:12:39,600
+na B1 kwa moja.
+
+150
+00:12:40,300 --> 00:12:43,600
+Hii inawasha lango la XOR
+
+151
+00:12:44,000 --> 00:12:45,700
+na saa
+
+152
+00:12:45,700 --> 00:12:47,833
+inabadilishwa.
+
+153
+00:12:48,966 --> 00:12:52,933
+Matokeo yake ni moja na kubeba
+
+154
+00:12:52,933 --> 00:12:55,633
+hukaa kwenye sifuri.
+
+155
+00:12:56,000 --> 00:12:57,900
+Vile vile hutumika kwa
+
+156
+00:12:59,366 --> 00:13:03,433
+moja pamoja na sifuri.
+
+157
+00:13:04,466 --> 00:13:06,700
+Wacha tuangalie
+
+158
+00:13:06,900 --> 00:13:10,366
+safu ya mwisho ya jedwali la ukweli.
+
+159
+00:13:12,600 --> 00:13:15,333
+Moja na
+
+160
+00:13:16,666 --> 00:13:18,333
+moja
+
+161
+00:13:18,400 --> 00:13:21,333
+huwasha NA lango wakati huu
+
+162
+00:13:22,000 --> 00:13:24,266
+na saa husababisha
+
+163
+00:13:24,466 --> 00:13:27,366
+kubeba kuweka.
+
+164
+00:13:28,966 --> 00:13:31,733
+Jumla inabaki sifuri.
+
+165
+00:13:36,733 --> 00:13:39,733
+Kwa hivyo nyuki wetu anaonekana kufanya kazi.
+
+166
+00:13:40,200 --> 00:13:44,333
+Anaweza kuongeza tarakimu ya binary kwa usahihi na kuamua kubeba.
+
+167
+00:13:44,700 --> 00:13:48,766
+Mzunguko huo tayari ungetosha kwa tarakimu ya mwisho ya nambari ya binary.
+
+168
+00:13:49,200 --> 00:13:55,300
+Kutoka kwa nafasi ya mwisho, hata hivyo, kubeba kwa nyongeza ya awali lazima bado kuzingatiwa.
+
+169
+00:13:55,733 --> 00:14:00,633
+Ili kufikia hilo, tunahitaji kupanua mzunguko kidogo.
+
+170
+00:14:01,500 --> 00:14:04,633
+Hapa tena uwakilishi wa kimantiki wa kiboreshaji nusu chetu
+
+171
+00:14:04,633 --> 00:14:09,266
+na muhtasari A1 na B1
+
+172
+00:14:09,466 --> 00:14:14,433
+na matokeo yake jumla ya R na kubeba U.
+
+173
+00:14:14,766 --> 00:14:22,166
+Mbali na A1 na B1 sasa tunapata kubeba U1 kama pembejeo ya tatu,
+
+174
+00:14:22,733 --> 00:14:26,466
+ambayo inatokana na nyongeza ya tarakimu iliyopita.
+
+175
+00:14:26,700 --> 00:14:32,566
+Jumla mpya R1 na beba mpya U2
+
+176
+00:14:32,566 --> 00:14:38,400
+lazima zihesabiwe kutoka A1, B1 na U1 kwa kutumia mantiki ya ziada
+
+177
+00:14:38,600 --> 00:14:43,333
+. Jedwali la ukweli sasa lina safu moja zaidi.
+
+178
+00:14:43,633 --> 00:14:48,266
+Kwa njia, sasa tuko katika mchakato wa kujenga kinachojulikana kama adder kamili,
+
+179
+00:14:48,633 --> 00:14:54,300
+na kifupi FA kwa "Full Adder".
+
+180
+00:14:55,366 --> 00:14:58,200
+Kwanza kabisa, hebu tuangalie
+
+181
+00:14:58,200 --> 00:15:03,700
+hesabu ya jumla ya R1, ambayo inakuwa moja wakati wowote pembejeo moja
+
+182
+00:15:03,700 --> 00:15:09,033
+A1, B1 au U1 imewekwa, au zote tatu pamoja.
+
+183
+00:15:09,300 --> 00:15:12,833
+Tabia hii inaweza kupatikana kwa kipengele kingine cha XOR,
+
+184
+00:15:13,200 --> 00:15:19,166
+ambacho tunalisha kubeba U1 na matokeo ya operesheni ya kwanza ya XOR.
+
+185
+00:15:19,166 --> 00:15:25,533
+Lango la juu la XOR hubadilika wakati wowote ama A1 au B1 imewekwa.
+
+186
+00:15:25,833 --> 00:15:34,300
+Kwa U1 sawa na sifuri, XOR ya pili kisha inabadilika na matokeo ya mwisho ni moja.
+
+187
+00:15:34,466 --> 00:15:39,900
+Ikiwa A1 na B1 ni sifuri na U1 imewekwa,
+
+188
+00:15:40,200 --> 00:15:45,366
+XOR ya chini pia inabadilika na matokeo ni moja tena.
+
+189
+00:15:46,300 --> 00:15:50,800
+Sasa swali linatokea jinsi habari kutoka kwa lango la kwanza la XOR
+
+190
+00:15:51,166 --> 00:15:53,966
+linaweza kuingia kwa pili.
+
+191
+00:15:54,200 --> 00:15:58,000
+Baada ya yote, msukumo unapaswa kuja karibu na kona kwa namna fulani.
+
+192
+00:15:58,466 --> 00:16:03,566
+Kazi hii inafanikiwa na sahani ya pili ya tack na kubadili.
+
+193
+00:16:04,100 --> 00:16:07,000
+Hebu tuonyeshe jinsi hii inavyofanya kazi kimsingi
+
+194
+00:16:07,000 --> 00:16:11,533
+na tuchukue safu mlalo ya tatu ya jedwali la ukweli:
+
+195
+00:16:11,533 --> 00:16:18,600
+Sufuri pamoja na moja huwasha lango la XOR.
+
+196
+00:16:19,600 --> 00:16:23,266
+Kisha kupigwa kwa kwanza kunasababishwa
+
+197
+00:16:23,633 --> 00:16:26,233
+na kubadili ni flipped.
+
+198
+00:16:27,000 --> 00:16:30,633
+Katika mzunguko wa 2, habari
+
+199
+00:16:30,633 --> 00:16:37,800
+kutoka kwa XOR ya kwanza kisha huhamishiwa kwenye XOR ya pili kupitia swichi na kuiwasha.
+
+200
+00:16:38,866 --> 00:16:41,400
+Msukumo ulizunguka kona.
+
+201
+00:16:41,766 --> 00:16:49,233
+Sasa tunahitaji bar ya tatu ili kusababisha lango la pili la XOR
+
+202
+00:16:49,466 --> 00:16:53,300
+na kuhesabu matokeo sahihi.
+
+203
+00:16:54,000 --> 00:16:59,900
+Sasa kwa kuwa tunaweza kuhesabu matokeo R1, kubeba U2 bado haipo.
+
+204
+00:17:00,533 --> 00:17:08,933
+Hii inarudisha moja ikiwa A1 na B1 zote zimewekwa, ambayo kisha kuwezesha NA lango.
+
+205
+00:17:09,833 --> 00:17:12,466
+Katika kesi hii, habari
+
+206
+00:17:12,466 --> 00:17:17,133
+inasukumwa tena kwenye kona kwa msaada wa swichi kutoka kwa bar 2.
+
+207
+00:17:17,833 --> 00:17:22,933
+Matukio ambapo A1 au B1 zimewekwa,
+
+208
+00:17:23,400 --> 00:17:26,266
+ambazo huwezesha XOR ya juu, bado hazipo.
+
+209
+00:17:26,700 --> 00:17:31,700
+Kwa kuongeza, kuna kubeba U1 kutoka nafasi ya awali.
+
+210
+00:17:32,433 --> 00:17:36,433
+Usambazaji wa kubeba unapatikana kwa urahisi kwa
+
+211
+00:17:36,733 --> 00:17:41,700
+kuhamisha habari ya juu ya XOR kutoka U1 hadi U2 kwa usaidizi wa kubadili mwingine
+
+212
+00:17:41,700 --> 00:17:47,166
+, ambayo bila shaka sahani ya saa 2 inachukua tena.
+
+213
+00:17:47,733 --> 00:17:52,700
+Kwa hivyo, fira yetu kamili imekamilika na sasa inaweza
+
+214
+00:17:52,700 --> 00:17:57,133
+kutumika kama kipengele cha msingi kwa kinadharia idadi yoyote ya maeneo katika fira.
+
+215
+00:17:58,500 --> 00:18:01,933
+Muundo wa Hünfeld hutumia tarakimu mbili za binary.
+
+216
+00:18:02,166 --> 00:18:07,633
+Kwa hivyo, hebu tunakili kiongeza chetu kamili mara moja na kurekebisha lebo.
+
+217
+00:18:08,500 --> 00:18:14,166
+Kisha tunaunganisha sehemu mbili kwa kutumia sahani ya uhamisho U2.
+
+218
+00:18:14,600 --> 00:18:19,200
+Na kiongeza chetu cha 2-bit kimekamilika na jedwali lifuatalo la ukweli:
+
+219
+00:18:19,633 --> 00:18:23,433
+Hebu kwanza tuhesabu mfano bila kubeba.
+
+220
+00:18:23,733 --> 00:18:31,166
+Vipi mbili jumlisha moja?
+
+221
+00:18:31,433 --> 00:18:34,766
+Ingizo huchochea milango miwili ya XOR.
+
+222
+00:18:35,000 --> 00:18:39,966
+Kisha bar 1 inawasha swichi nne.
+
+223
+00:18:40,333 --> 00:18:44,566
+Upau wa 2 husukuma maelezo ya XOR kwenye kona
+
+224
+00:18:44,733 --> 00:18:48,233
+na kuamilisha milango ya chini ya XOR.
+
+225
+00:18:48,600 --> 00:18:52,533
+Hatimaye, upau wa tatu hutathmini matokeo,
+
+226
+00:18:52,800 --> 00:18:59,033
+ambayo, kama inavyotarajiwa, ni 001 katika binary au tatu katika decimal.
+
+227
+00:18:59,633 --> 00:19:03,200
+Katika kesi hii, mnyororo wa kubeba bado haujatumiwa.
+
+228
+00:19:03,600 --> 00:19:09,866
+Kwa hivyo hatimaye tunafanya mfano tangu mwanzo na kubeba, kwa hivyo ...
+
+229
+00:19:11,333 --> 00:19:12,433
+tatu
+
+230
+00:19:13,100 --> 00:19:14,100
+pamoja na
+
+231
+00:19:15,233 --> 00:19:16,533
+moja.
+
+232
+00:19:16,766 --> 00:19:23,000
+Ingizo huwezesha XOR ya kwanza na ya pili NA lango.
+
+233
+00:19:23,600 --> 00:19:29,333
+Saa 1 husababisha swichi za mnyororo wa kubeba,
+
+234
+00:19:29,333 --> 00:19:35,733
+pamoja na swichi ya kuhesabu kubeba U2 na nafasi ya pili.
+
+235
+00:19:36,000 --> 00:19:40,700
+Baa 2 huhamisha beba hadi U3.
+
+236
+00:19:40,866 --> 00:19:45,700
+Na bar 3 basi haina athari zaidi.
+
+237
+00:19:45,933 --> 00:19:53,233
+Matokeo yake ni kwa usahihi binary 100 au decimal nne.
+
+238
+00:19:54,300 --> 00:19:55,200
+Imekamilika!
+
+239
+00:19:55,966 --> 00:20:00,000
+Konrad Zuse kwa kweli amebuni kitu kizuri sana:
+
+240
+00:20:00,533 --> 00:20:04,966
+Nyongeza ya kwanza duniani ya binary!
+
+241
+00:20:05,700 --> 00:20:07,033
+Wenzake
+
+242
+00:20:07,033 --> 00:20:08,766
+Wilhelm Schickard na...
+
+243
+00:20:08,766 --> 00:20:10,766
+Gottfried Wilhelm Leibniz
+
+244
+00:20:10,766 --> 00:20:17,666
+bila shaka wangepiga makofi kwa nguvu!
+

@@ -1,0 +1,976 @@
+1
+00:00:34,133 --> 00:00:41,266
+L'âge du calcul automatique commence en 1623,
+
+2
+00:00:41,266 --> 00:00:45,000
+lorsque Wilhelm Schickard achève sa machine à calculer en bois.
+
+3
+00:00:45,600 --> 00:00:51,100
+Cette machine utilise des engrenages et fonctionne dans le système décimal.
+
+4
+00:00:51,700 --> 00:00:56,333
+Deux engrenages peuvent représenter un nombre à deux chiffres.
+
+5
+00:00:57,066 --> 00:01:01,100
+La manipulation du portage lors de l'ajout est
+
+6
+00:01:01,500 --> 00:01:04,400
+réalisée à l'aide de goupilles et d'une autre roue dentée.
+
+7
+00:01:04,566 --> 00:01:06,900
+Ça donne ça...
+
+8
+00:01:08,066 --> 00:01:10,700
+Des dizaines Reportez "Un" et...
+
+9
+00:01:11,900 --> 00:01:14,266
+Reportez "Deux"...
+
+10
+00:01:15,533 --> 00:01:17,566
+Et...
+
+11
+00:01:17,700 --> 00:01:21,433
+Reportez "Trois" fait un total de 30 !
+
+12
+00:01:22,900 --> 00:01:25,466
+Comme vous pouvez le voir, les engrenages sont vraiment
+
+13
+00:01:25,500 --> 00:01:28,433
+parfaits pour l'ajout dans le système décimal.
+
+14
+00:01:29,600 --> 00:01:33,466
+Cependant, les ordinateurs d'aujourd'hui fonctionnent tous dans le système binaire,
+
+15
+00:01:34,133 --> 00:01:38,366
+qui a été documenté par Gottfried Wilhelm Leibniz à la fin du XVIIe siècle,
+
+16
+00:01:38,366 --> 00:01:42,400
+environ 75 ans après l'invention de Schickard.
+
+17
+00:01:43,200 --> 00:01:45,900
+A titre d'exemple, M. Leibniz nous montre maintenant comment calculer
+
+18
+00:01:46,266 --> 00:01:50,166
+3 + 1 dans son système binaire.
+
+19
+00:01:51,000 --> 00:01:57,266
+Le 3 est représenté par 1 * 2 ^ 1 + 1 * 2 ^ 0, c'est-à-dire
+
+20
+00:01:57,833 --> 00:02:01,766
+1 * 2 + 1 * 1.
+
+21
+00:02:02,066 --> 00:02:07,833
+Le 1 correspond à 0 * 2 + 1 * 1.
+
+22
+00:02:08,566 --> 00:02:12,633
+On forme la somme en écrivant les deux nombres l'un en dessous de l'autre.
+
+23
+00:02:13,633 --> 00:02:17,966
+Tout comme nous avons appris à l'école pour le système décimal.
+
+24
+00:02:19,200 --> 00:02:24,700
+Donc 1 + 1 = 0... 1 noté !
+
+25
+00:02:25,433 --> 00:02:30,666
+1 + (souvenu) 1 = 0 Et encore 1 souvenu !
+
+26
+00:02:31,100 --> 00:02:36,366
+Enfin, 0 + 1 = 1...
+
+27
+00:02:36,366 --> 00:02:41,800
+La somme est donc 2 * 2 ^ 2 ou 1 * 4,
+
+28
+00:02:42,200 --> 00:02:45,933
+ou simplement décimal quatre !
+
+29
+00:02:46,966 --> 00:02:50,800
+Dans le calcul, nous avons vu que nous
+
+30
+00:02:51,100 --> 00:02:56,533
+devions prendre en compte deux fois le report du chiffre inférieur au chiffre supérieur.
+
+31
+00:02:57,066 --> 00:03:00,300
+Nous rencontrerons ce concept plusieurs fois dans ce qui suit.
+
+32
+00:03:00,900 --> 00:03:04,000
+Nous arrivons donc maintenant au monde moderne de la technologie
+
+33
+00:03:04,000 --> 00:03:10,166
+avec la première calculatrice binaire de l'univers connu, à savoir la Z1 !
+
+34
+00:03:10,366 --> 00:03:13,500
+Konrad Zuse a assemblé son œuvre
+
+35
+00:03:13,866 --> 00:03:18,933
+en 1937 à partir de milliers de pièces en tôle.
+
+36
+00:03:19,500 --> 00:03:23,800
+Ici, nous voyons la réplique du Technikmuseum de Berlin.
+
+37
+00:03:24,800 --> 00:03:29,666
+Cette section ici, par exemple, implémente l'unité arithmétique avec l'unité d'addition.
+
+38
+00:03:30,300 --> 00:03:34,300
+Compte tenu de la multitude d'éléments individuels, il semble presque impossible
+
+39
+00:03:34,533 --> 00:03:38,233
+de comprendre comment cette merveille est censée fonctionner en son cœur.
+
+40
+00:03:38,600 --> 00:03:41,933
+Heureusement, cependant, il existe un
+
+41
+00:03:41,933 --> 00:03:47,766
+modèle au musée Zuse à Hünfeld qui montre clairement les principes sous-jacents.
+
+42
+00:03:48,833 --> 00:03:54,400
+Pour implémenter la fonction d'additionneur, Zuse a utilisé trois types de composants,
+
+43
+00:03:54,400 --> 00:03:55,633
+à savoir...
+
+44
+00:03:55,633 --> 00:03:58,233
+les portes ET et XOR,
+
+45
+00:03:58,433 --> 00:04:01,200
+ainsi que de simples éléments de commutation.
+
+46
+00:04:02,033 --> 00:04:05,433
+Le modèle est à peu près le même que le circuit additionneur
+
+47
+00:04:05,433 --> 00:04:10,100
+que Konrad Zuse lui-même a dessiné.
+
+48
+00:04:15,166 --> 00:04:17,700
+Dans ce qui suit, nous allons donc d'abord décrire la structure
+
+49
+00:04:17,700 --> 00:04:22,466
+de ces trois éléments de base, en commençant par la porte ET.
+
+50
+00:04:22,933 --> 00:04:31,166
+Celui-ci a deux entrées A et B et une sortie qui représente le résultat.
+
+51
+00:04:31,500 --> 00:04:37,533
+La table de vérité de l'opération ET définit le résultat pour chaque A et B possibles.
+
+52
+00:04:37,800 --> 00:04:43,133
+Ce n'est que lorsque A et B sont un que la sortie est également un.
+
+53
+00:04:43,533 --> 00:04:48,733
+Pour tous les autres cas, nous obtenons le zéro.
+
+54
+00:04:48,900 --> 00:04:56,833
+Voyons comment Konrad Zuse a réalisé cette opération à partir de ses pièces de tôlerie.
+
+55
+00:04:57,700 --> 00:05:01,533
+Afin de ne pas perdre l'orientation, nous utilisons le même
+
+56
+00:05:01,533 --> 00:05:06,466
+alignement horizontal et vertical que dans le modèle de Hünfeld.
+
+57
+00:05:07,700 --> 00:05:12,300
+Les plaques A et B sont utilisées pour l'entrée,
+
+58
+00:05:12,700 --> 00:05:16,400
+qui peut se déplacer respectivement vers la droite et vers la gauche...
+
+59
+00:05:16,833 --> 00:05:23,166
+Et ainsi rendre le un ou le zéro réglable.
+
+60
+00:05:24,000 --> 00:05:30,400
+Pour le résultat, il y a la feuille de sortie, qui est déplacée dans le sens vertical
+
+61
+00:05:30,733 --> 00:05:35,700
+et le résultat peut représenter zéro et un.
+
+62
+00:05:37,133 --> 00:05:43,433
+La logique de liaison proprement dite est mise en œuvre via la plaque dite de couplage,
+
+63
+00:05:43,733 --> 00:05:47,466
+qui présente des découpes spéciales pour l'opération ET
+
+64
+00:05:47,733 --> 00:05:52,133
+et se déplace également dans le sens vertical.
+
+65
+00:05:54,166 --> 00:05:58,000
+Les trois feuilles sont alors empilées les unes sur les autres
+
+66
+00:05:58,233 --> 00:06:01,700
+et reliées entre elles par deux broches de commutation.
+
+67
+00:06:02,566 --> 00:06:06,200
+Nous obtenons le même effet dans le dessin éclaté
+
+68
+00:06:06,466 --> 00:06:10,166
+en utilisant des broches couplées horizontalement.
+
+69
+00:06:10,766 --> 00:06:16,033
+Ce qui manque encore, c'est un mécanisme pour déclencher le circuit ET.
+
+70
+00:06:16,600 --> 00:06:20,400
+Pour cela, Konrad Zuse a fourni le plateau d'indexation
+
+71
+00:06:20,766 --> 00:06:26,300
+qui, comme le plateau de sortie, peut se déplacer verticalement.
+
+72
+00:06:27,733 --> 00:06:31,100
+Nous vérifions maintenant si le circuit fonctionne correctement
+
+73
+00:06:31,466 --> 00:06:35,533
+et commençons par la première ligne de la table de vérité.
+
+74
+00:06:35,866 --> 00:06:40,666
+En entrée, nous utilisons zéro pour A et zéro pour B.
+
+75
+00:06:41,433 --> 00:06:45,100
+Ensuite, l'impulsion d'horloge est déclenchée.
+
+76
+00:06:45,600 --> 00:06:50,566
+Etant donné que le couplage supérieur n'a pas lieu, la feuille de sortie reste également
+
+77
+00:06:50,566 --> 00:06:55,233
+dans sa position d'origine et le résultat est zéro.
+
+78
+00:06:55,766 --> 00:06:58,666
+Maintenant, la deuxième ligne...
+
+79
+00:06:59,633 --> 00:07:02,766
+zéro et...
+
+80
+00:07:02,766 --> 00:07:04,333
+un...
+
+81
+00:07:04,433 --> 00:07:08,500
+est à nouveau zéro
+
+82
+00:07:09,066 --> 00:07:13,466
+parce que le couplage supérieur n'est pas réactivé.
+
+83
+00:07:14,433 --> 00:07:17,366
+Maintenant pour la troisième ligne...
+
+84
+00:07:18,133 --> 00:07:24,133
+Nous mettons l'entrée A à un et B à zéro.
+
+85
+00:07:24,966 --> 00:07:29,533
+Cette fois, l'impulsion d'horloge déplace la plaque de couplage.
+
+86
+00:07:29,966 --> 00:07:37,933
+Cependant, du fait que le couplage inférieur n'a pas lieu, la feuille de sortie reste à nouveau à zéro.
+
+87
+00:07:38,933 --> 00:07:43,166
+Enfin, nous testons la dernière ligne du tableau
+
+88
+00:07:43,600 --> 00:07:46,833
+et définissons les entrées A
+
+89
+00:07:48,500 --> 00:07:53,200
+et B sur un.
+
+90
+00:07:54,400 --> 00:08:02,300
+La plaque de sortie est maintenant décalée de l'horloge car les couplages supérieur
+
+91
+00:08:02,466 --> 00:08:08,900
+et inférieur ont lieu et le résultat est le même.
+
+92
+00:08:10,600 --> 00:08:14,433
+Nous avons donc entièrement vérifié la porte ET
+
+93
+00:08:14,433 --> 00:08:18,433
+et ensuite nous regardons la porte XOR.
+
+94
+00:08:18,833 --> 00:08:22,033
+Pour ce faire, nous devons d'abord dissoudre la porte ET,
+
+95
+00:08:22,233 --> 00:08:25,833
+puis retirer la plaque de couplage et
+
+96
+00:08:25,833 --> 00:08:29,233
+enfin la remplacer par deux nouvelles plaques
+
+97
+00:08:29,333 --> 00:08:33,100
+qui ont les découpes correctes pour l'opération XOR.
+
+98
+00:08:33,866 --> 00:08:40,066
+Les feuilles sont ensuite finalement reconnectées par les broches de l'interrupteur et le tour est joué...
+
+99
+00:08:40,200 --> 00:08:44,366
+Notre porte OU exclusive est entièrement assemblée !
+
+100
+00:08:44,633 --> 00:08:48,200
+La table de vérité ressemble cette fois à ceci :
+
+101
+00:08:48,400 --> 00:08:54,600
+si A et B sont égaux, le résultat est zéro.
+
+102
+00:08:54,600 --> 00:09:00,200
+Si A et B ne sont pas égaux, l'opération XOR donne un résultat.
+
+103
+00:09:00,766 --> 00:09:03,600
+Revenons donc au test de notre circuit...
+
+104
+00:09:04,566 --> 00:09:08,266
+Zéro XOR Zéro
+
+105
+00:09:08,700 --> 00:09:13,600
+équivaut à zéro !
+
+106
+00:09:17,100 --> 00:09:22,600
+Zéro XOR un
+
+107
+00:09:22,800 --> 00:09:26,400
+est égal à un.
+
+108
+00:09:27,300 --> 00:09:30,000
+Vous avez maintenant vu que la
+
+109
+00:09:30,000 --> 00:09:35,166
+feuille de droite prend le relais si A et B ne sont pas égaux.
+
+110
+00:09:38,566 --> 00:09:40,366
+Et cela continue avec...
+
+111
+00:09:40,366 --> 00:09:45,133
+Un zéro XOR est également
+
+112
+00:09:46,466 --> 00:09:47,600
+égal à
+
+113
+00:09:48,400 --> 00:09:51,033
+un.
+
+114
+00:09:51,033 --> 00:09:54,900
+Cette fois, la feuille de gauche prend le relais de l'attelage.
+
+115
+00:09:55,733 --> 00:09:57,666
+Tout ce qui reste est...
+
+116
+00:10:00,100 --> 00:10:05,533
+One XOR One,
+
+117
+00:10:06,466 --> 00:10:09,966
+qui est alors à nouveau égal à zéro.
+
+118
+00:10:10,800 --> 00:10:15,200
+Maintenant que nous avons implémenté les opérations logiques AND et XOR,
+
+119
+00:10:15,466 --> 00:10:18,033
+il nous manque toujours le commutateur simple.
+
+120
+00:10:18,466 --> 00:10:23,066
+Celui-ci se compose d'une minuterie et d'un plateau de sortie,
+
+121
+00:10:23,066 --> 00:10:28,533
+qui peuvent tous deux se déplacer horizontalement, et d'un plateau d'entrée,
+
+122
+00:10:28,533 --> 00:10:31,200
+qui est aligné verticalement.
+
+123
+00:10:31,966 --> 00:10:36,533
+Les trois feuilles sont bien sûr connectées à nouveau avec une broche de commutation.
+
+124
+00:10:36,900 --> 00:10:43,466
+A l'état inactif, l'horloge et les feuilles de sortie ne sont pas couplées et l'impulsion
+
+125
+00:10:43,466 --> 00:10:46,200
+n'est donc pas commutée.
+
+126
+00:10:46,700 --> 00:10:49,466
+Si le commutateur est actif,
+
+127
+00:10:50,033 --> 00:10:53,800
+l'impulsion d'horloge est transmise.
+
+128
+00:10:55,066 --> 00:10:58,366
+Avec les trois éléments de commutation décrits, nous avons maintenant tous
+
+129
+00:10:58,366 --> 00:11:02,733
+les ingrédients pour le modèle d'addition de Hünfeld.
+
+130
+00:11:02,733 --> 00:11:06,900
+Dans ce qui suit, nous expliquons étape par étape comment l'additionneur est construit.
+
+131
+00:11:07,200 --> 00:11:13,466
+Nous commençons pour cela en haut à droite, où une porte ET et une porte XOR sont installées.
+
+132
+00:11:13,466 --> 00:11:19,400
+Le circuit a deux entrées, à savoir A1 et B1.
+
+133
+00:11:20,100 --> 00:11:28,600
+Ensuite, il y a deux sorties, à savoir R pour le résultat de la somme et U pour le report.
+
+134
+00:11:29,100 --> 00:11:33,200
+Les portes sont activées via la première plaque d'horloge.
+
+135
+00:11:34,066 --> 00:11:40,033
+Et là encore la table de vérité du circuit, qui de nos jours, soit dit en passant,
+
+136
+00:11:40,300 --> 00:11:43,000
+s'appelle un demi-additionneur.
+
+137
+00:11:43,000 --> 00:11:48,133
+Ce composant a donc deux entrées,
+
+138
+00:11:48,133 --> 00:11:51,033
+à savoir la première sommation A1
+
+139
+00:11:51,633 --> 00:11:54,733
+et la deuxième sommation B1.
+
+140
+00:11:55,333 --> 00:11:58,166
+Ensuite, nous avons deux sorties,
+
+141
+00:11:58,166 --> 00:12:04,300
+à savoir la somme R et la retenue U.
+
+142
+00:12:05,000 --> 00:12:08,366
+Ensuite, nous testons le circuit...
+
+143
+00:12:09,633 --> 00:12:12,200
+zéro plus zéro
+
+144
+00:12:12,700 --> 00:12:14,533
+égale
+
+145
+00:12:16,800 --> 00:12:18,466
+zéro !
+
+146
+00:12:18,600 --> 00:12:21,466
+Et le portage est également nul.
+
+147
+00:12:22,133 --> 00:12:27,266
+AND et XOR ne passent pas l'impulsion d'horloge.
+
+148
+00:12:29,000 --> 00:12:35,000
+Dans la deuxième ligne, nous mettons A1 à zéro
+
+149
+00:12:35,466 --> 00:12:39,600
+et B1 à un.
+
+150
+00:12:40,300 --> 00:12:43,600
+Cela active la porte XOR
+
+151
+00:12:44,000 --> 00:12:45,700
+et l'horloge
+
+152
+00:12:45,700 --> 00:12:47,833
+est commutée.
+
+153
+00:12:48,966 --> 00:12:52,933
+Le résultat est un et le portage
+
+154
+00:12:52,933 --> 00:12:55,633
+reste à zéro.
+
+155
+00:12:56,000 --> 00:12:57,900
+La même chose s'applique à
+
+156
+00:12:59,366 --> 00:13:03,433
+un plus zéro.
+
+157
+00:13:04,466 --> 00:13:06,700
+Regardons la
+
+158
+00:13:06,900 --> 00:13:10,366
+dernière ligne de la table de vérité.
+
+159
+00:13:12,600 --> 00:13:15,333
+Un et
+
+160
+00:13:16,666 --> 00:13:18,333
+un
+
+161
+00:13:18,400 --> 00:13:21,333
+activent la porte ET cette fois
+
+162
+00:13:22,000 --> 00:13:24,266
+et l'horloge provoque
+
+163
+00:13:24,466 --> 00:13:27,366
+le réglage de la retenue.
+
+164
+00:13:28,966 --> 00:13:31,733
+La somme reste à zéro.
+
+165
+00:13:36,733 --> 00:13:39,733
+Donc, notre demi-additionneur semble fonctionner.
+
+166
+00:13:40,200 --> 00:13:44,333
+Il peut additionner correctement un chiffre binaire et déterminer le portage.
+
+167
+00:13:44,700 --> 00:13:48,766
+Le circuit serait déjà suffisant pour le dernier chiffre d'un nombre binaire.
+
+168
+00:13:49,200 --> 00:13:55,300
+A partir de l'avant-dernière position, cependant, le portage de l'addition précédente doit encore être pris en compte.
+
+169
+00:13:55,733 --> 00:14:00,633
+Pour y parvenir, nous devons étendre un peu le circuit.
+
+170
+00:14:01,500 --> 00:14:04,633
+Ici encore la représentation logique de notre demi-additionneur
+
+171
+00:14:04,633 --> 00:14:09,266
+avec les sommations A1 et B1
+
+172
+00:14:09,466 --> 00:14:14,433
+et par conséquent la somme R et la retenue U.
+
+173
+00:14:14,766 --> 00:14:22,166
+En plus de A1 et B1, nous obtenons maintenant la retenue U1 comme troisième entrée,
+
+174
+00:14:22,733 --> 00:14:26,466
+qui provient de l'addition de la chiffre précédent.
+
+175
+00:14:26,700 --> 00:14:32,566
+La nouvelle somme R1 et la nouvelle retenue U2
+
+176
+00:14:32,566 --> 00:14:38,400
+doivent alors être calculées à partir de A1, B1 et U1 en utilisant une logique supplémentaire
+
+177
+00:14:38,600 --> 00:14:43,333
+. La table de vérité a maintenant une colonne de plus.
+
+178
+00:14:43,633 --> 00:14:48,266
+D'ailleurs, nous sommes actuellement en train de construire un soi-disant additionneur complet,
+
+179
+00:14:48,633 --> 00:14:54,300
+avec l'abréviation FA pour "Full Adder".
+
+180
+00:14:55,366 --> 00:14:58,200
+Tout d'abord, regardons
+
+181
+00:14:58,200 --> 00:15:03,700
+le calcul de la somme R1, qui devient un chaque fois qu'exactement une entrée
+
+182
+00:15:03,700 --> 00:15:09,033
+A1, B1 ou U1 est définie, ou les trois ensemble.
+
+183
+00:15:09,300 --> 00:15:12,833
+Ce comportement peut être obtenu avec un autre élément XOR,
+
+184
+00:15:13,200 --> 00:15:19,166
+dans lequel nous introduisons le report U1 et le résultat de la première opération XOR.
+
+185
+00:15:19,166 --> 00:15:25,533
+La porte XOR supérieure commute chaque fois que A1 ou B1 est défini.
+
+186
+00:15:25,833 --> 00:15:34,300
+Pour U1 égal à zéro, le deuxième XOR commute alors et le résultat final est un.
+
+187
+00:15:34,466 --> 00:15:39,900
+Si A1 et B1 sont nuls et que U1 est défini,
+
+188
+00:15:40,200 --> 00:15:45,366
+le XOR inférieur commute également et le résultat est à nouveau un.
+
+189
+00:15:46,300 --> 00:15:50,800
+Maintenant, la question se pose de savoir comment les informations de la première porte XOR
+
+190
+00:15:51,166 --> 00:15:53,966
+peuvent pénétrer mécaniquement dans la seconde.
+
+191
+00:15:54,200 --> 00:15:58,000
+Après tout, l'impulsion doit venir d'une manière ou d'une autre.
+
+192
+00:15:58,466 --> 00:16:03,566
+Cet exploit est réalisé par une deuxième plaque d'amure et un interrupteur.
+
+193
+00:16:04,100 --> 00:16:07,000
+Démontrons comment cela fonctionne en principe
+
+194
+00:16:07,000 --> 00:16:11,533
+et prenons la ligne trois de la table de vérité :
+
+195
+00:16:11,533 --> 00:16:18,600
+Zéro plus un active la porte XOR.
+
+196
+00:16:19,600 --> 00:16:23,266
+Ensuite, le premier battement est déclenché
+
+197
+00:16:23,633 --> 00:16:26,233
+et l'interrupteur est basculé.
+
+198
+00:16:27,000 --> 00:16:30,633
+Au cycle 2, les informations
+
+199
+00:16:30,633 --> 00:16:37,800
+du premier XOR sont alors décalées dans le second XOR via le commutateur et l'activent.
+
+200
+00:16:38,866 --> 00:16:41,400
+L'impulsion a coulé au coin de la rue.
+
+201
+00:16:41,766 --> 00:16:49,233
+Nous avons maintenant besoin d'une troisième barre pour déclencher la deuxième porte XOR
+
+202
+00:16:49,466 --> 00:16:53,300
+et calculer le résultat correct.
+
+203
+00:16:54,000 --> 00:16:59,900
+Maintenant que nous pouvons calculer le résultat R1, la retenue U2 est toujours manquante.
+
+204
+00:17:00,533 --> 00:17:08,933
+Cela renvoie un si A1 et B1 sont définis, ce qui active alors la porte ET.
+
+205
+00:17:09,833 --> 00:17:12,466
+Dans ce cas, l'information est à nouveau
+
+206
+00:17:12,466 --> 00:17:17,133
+poussée au coin de la rue à l'aide d'un interrupteur de la barre 2.
+
+207
+00:17:17,833 --> 00:17:22,933
+Les cas où A1 ou B1 sont définis,
+
+208
+00:17:23,400 --> 00:17:26,266
+ce qui active le XOR supérieur, sont toujours manquants.
+
+209
+00:17:26,700 --> 00:17:31,700
+De plus, il y a le report U1 de la position précédente.
+
+210
+00:17:32,433 --> 00:17:36,433
+L'acheminement de la retenue s'effectue facilement en
+
+211
+00:17:36,733 --> 00:17:41,700
+décalant l'information XOR supérieure de U1 vers U2 à l'aide d'un autre interrupteur 10
+
+212
+00:17:41,700 --> 00:17:47,166
+, dont bien entendu la platine d'horloge 2 reprend le relais.
+
+213
+00:17:47,733 --> 00:17:52,700
+Ainsi, notre additionneur complet est complet et peut maintenant
+
+214
+00:17:52,700 --> 00:17:57,133
+servir d'élément de base pour théoriquement n'importe quel nombre de places dans un additionneur.
+
+215
+00:17:58,500 --> 00:18:01,933
+Le modèle de Hünfeld utilise deux chiffres binaires.
+
+216
+00:18:02,166 --> 00:18:07,633
+Alors copions notre additionneur complet une fois et ajustons les étiquettes.
+
+217
+00:18:08,500 --> 00:18:14,166
+Puis on relie les deux parties à l'aide de la plaque de transfert U2.
+
+218
+00:18:14,600 --> 00:18:19,200
+Et notre additionneur 2 bits est complet avec la table de vérité suivante :
+
+219
+00:18:19,633 --> 00:18:23,433
+Calculons d'abord un exemple sans retenue.
+
+220
+00:18:23,733 --> 00:18:31,166
+Que diriez-vous de deux plus un ?
+
+221
+00:18:31,433 --> 00:18:34,766
+L'entrée déclenche les deux portes XOR.
+
+222
+00:18:35,000 --> 00:18:39,966
+Ensuite, la barre 1 active les quatre interrupteurs.
+
+223
+00:18:40,333 --> 00:18:44,566
+La barre 2 pousse les informations XOR autour du coin
+
+224
+00:18:44,733 --> 00:18:48,233
+et active les portes XOR inférieures.
+
+225
+00:18:48,600 --> 00:18:52,533
+Enfin, la troisième barre évalue le résultat,
+
+226
+00:18:52,800 --> 00:18:59,033
+qui, comme prévu, est 001 en binaire ou trois en décimal.
+
+227
+00:18:59,633 --> 00:19:03,200
+Dans ce cas, la chaîne de portage n'a pas encore été utilisée.
+
+228
+00:19:03,600 --> 00:19:09,866
+Donc, finalement, nous reprenons l'exemple du début avec le report, donc...
+
+229
+00:19:11,333 --> 00:19:12,433
+trois
+
+230
+00:19:13,100 --> 00:19:14,100
+plus
+
+231
+00:19:15,233 --> 00:19:16,533
+un.
+
+232
+00:19:16,766 --> 00:19:23,000
+L'entrée active la première porte XOR et la seconde porte ET.
+
+233
+00:19:23,600 --> 00:19:29,333
+L'horloge 1 déclenche les interrupteurs pour la chaîne de portage,
+
+234
+00:19:29,333 --> 00:19:35,733
+ainsi que l'interrupteur pour calculer le portage U2 avec la deuxième place.
+
+235
+00:19:36,000 --> 00:19:40,700
+La mesure 2 déplace le portage vers U3.
+
+236
+00:19:40,866 --> 00:19:45,700
+Et la mesure 3 n'a alors plus d'effet.
+
+237
+00:19:45,933 --> 00:19:53,233
+Le résultat est correctement binaire 100 ou décimal quatre.
+
+238
+00:19:54,300 --> 00:19:55,200
+Fait!
+
+239
+00:19:55,966 --> 00:20:00,000
+Konrad Zuse a vraiment conçu une chose assez ingénieuse :
+
+240
+00:20:00,533 --> 00:20:04,966
+le premier additionneur binaire au monde !
+
+241
+00:20:05,700 --> 00:20:07,033
+Ses collègues
+
+242
+00:20:07,033 --> 00:20:08,766
+Wilhelm Schickard et...
+
+243
+00:20:08,766 --> 00:20:10,766
+Gottfried Wilhelm Leibniz
+
+244
+00:20:10,766 --> 00:20:17,666
+applaudiront sans doute avec vigueur !
+

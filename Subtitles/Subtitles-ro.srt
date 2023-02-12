@@ -1,0 +1,976 @@
+1
+00:00:34,133 --> 00:00:41,266
+Epoca calculului automat începe în 1623,
+
+2
+00:00:41,266 --> 00:00:45,000
+când Wilhelm Schickard își finalizează mașina de calcul din lemn.
+
+3
+00:00:45,600 --> 00:00:51,100
+Această mașină folosește roți dințate și funcționează în sistem zecimal.
+
+4
+00:00:51,700 --> 00:00:56,333
+Două roți dințate pot reprezenta un număr din două cifre.
+
+5
+00:00:57,066 --> 00:01:01,100
+Manevrarea transportului în timpul adăugării se
+
+6
+00:01:01,500 --> 00:01:04,400
+realizează cu ajutorul știfturilor și a unei alte roți dințate.
+
+7
+00:01:04,566 --> 00:01:06,900
+Merge așa...
+
+8
+00:01:08,066 --> 00:01:10,700
+Zeci Transferați „Unul” și...
+
+9
+00:01:11,900 --> 00:01:14,266
+Transferați „Doi”...
+
+10
+00:01:15,533 --> 00:01:17,566
+Și...
+
+11
+00:01:17,700 --> 00:01:21,433
+Transferați „Trei” face un total de 30!
+
+12
+00:01:22,900 --> 00:01:25,466
+După cum puteți vedea, angrenajele sunt foarte
+
+13
+00:01:25,500 --> 00:01:28,433
+bune pentru adăugarea în sistemul zecimal.
+
+14
+00:01:29,600 --> 00:01:33,466
+Cu toate acestea, computerele de astăzi funcționează toate în sistemul binar,
+
+15
+00:01:34,133 --> 00:01:38,366
+care a fost documentat de Gottfried Wilhelm Leibniz la sfârșitul secolului al XVII-lea,
+
+16
+00:01:38,366 --> 00:01:42,400
+la aproximativ 75 de ani după invenția lui Schickard.
+
+17
+00:01:43,200 --> 00:01:45,900
+Ca exemplu, domnul Leibniz ne arată acum cum să
+
+18
+00:01:46,266 --> 00:01:50,166
+calculăm 3 + 1 în sistemul său binar.
+
+19
+00:01:51,000 --> 00:01:57,266
+3 este reprezentat ca 1 * 2^1 + 1 * 2^0, adică
+
+20
+00:01:57,833 --> 00:02:01,766
+1 * 2 + 1 * 1.
+
+21
+00:02:02,066 --> 00:02:07,833
+1 corespunde cu 0 * 2 + 1 * 1.
+
+22
+00:02:08,566 --> 00:02:12,633
+Formăm suma scriind cele două numere unul sub celălalt.
+
+23
+00:02:13,633 --> 00:02:17,966
+Așa cum am învățat la școală pentru sistemul zecimal.
+
+24
+00:02:19,200 --> 00:02:24,700
+Deci 1 + 1 = 0 ... 1 notat!
+
+25
+00:02:25,433 --> 00:02:30,666
+1 + (remintit) 1 = 0 Și din nou 1 amintit!
+
+26
+00:02:31,100 --> 00:02:36,366
+În cele din urmă, 0 + 1 = 1...
+
+27
+00:02:36,366 --> 00:02:41,800
+Deci suma este 2 * 2^2 sau 1 * 4,
+
+28
+00:02:42,200 --> 00:02:45,933
+sau doar zecimala patru!
+
+29
+00:02:46,966 --> 00:02:50,800
+În calcul am văzut că
+
+30
+00:02:51,100 --> 00:02:56,533
+a trebuit să luăm în calcul de două ori transportul de la cifra inferioară la cea mai mare.
+
+31
+00:02:57,066 --> 00:03:00,300
+Vom întâlni acest concept de mai multe ori în cele ce urmează.
+
+32
+00:03:00,900 --> 00:03:04,000
+Așa că acum ajungem în lumea modernă a tehnologiei
+
+33
+00:03:04,000 --> 00:03:10,166
+cu primul calculator binar din universul cunoscut, și anume Z1!
+
+34
+00:03:10,366 --> 00:03:13,500
+Konrad Zuse și-a asamblat lucrarea
+
+35
+00:03:13,866 --> 00:03:18,933
+în 1937 din mii de piese din tablă.
+
+36
+00:03:19,500 --> 00:03:23,800
+Aici vedem replica de la Technikmuseum din Berlin.
+
+37
+00:03:24,800 --> 00:03:29,666
+Această secțiune aici, de exemplu, implementează unitatea aritmetică cu unitatea de adunare.
+
+38
+00:03:30,300 --> 00:03:34,300
+Având în vedere multitudinea de elemente individuale, pare aproape imposibil
+
+39
+00:03:34,533 --> 00:03:38,233
+de înțeles cum ar trebui să funcționeze această minune în esență.
+
+40
+00:03:38,600 --> 00:03:41,933
+Din fericire, însă, în Muzeul Zuse din Hünfeld
+
+41
+00:03:41,933 --> 00:03:47,766
+există un model care arată clar principiile care stau la baza.
+
+42
+00:03:48,833 --> 00:03:54,400
+Pentru a implementa funcția de adunare, Zuse a folosit trei tipuri de componente
+
+43
+00:03:54,400 --> 00:03:55,633
+și anume...
+
+44
+00:03:55,633 --> 00:03:58,233
+porți AND și XOR,
+
+45
+00:03:58,433 --> 00:04:01,200
+precum și elemente simple de comutare.
+
+46
+00:04:02,033 --> 00:04:05,433
+Modelul este aproape același cu circuitul de adunare
+
+47
+00:04:05,433 --> 00:04:10,100
+pe care l-a desenat însuși Konrad Zuse.
+
+48
+00:04:15,166 --> 00:04:17,700
+În cele ce urmează, vom descrie mai întâi structura
+
+49
+00:04:17,700 --> 00:04:22,466
+acestor trei elemente de bază, începând cu poarta AND.
+
+50
+00:04:22,933 --> 00:04:31,166
+Acesta are două intrări A și B și o ieșire care reprezintă rezultatul.
+
+51
+00:04:31,500 --> 00:04:37,533
+Tabelul de adevăr pentru operația AND definește rezultatul pentru fiecare A și B posibil.
+
+52
+00:04:37,800 --> 00:04:43,133
+Doar atunci când A și B sunt unul este și ieșirea una.
+
+53
+00:04:43,533 --> 00:04:48,733
+Pentru toate celelalte cazuri obținem zero.
+
+54
+00:04:48,900 --> 00:04:56,833
+Să aruncăm o privire la modul în care Konrad Zuse a implementat această operațiune folosind piesele sale din tablă.
+
+55
+00:04:57,700 --> 00:05:01,533
+Pentru a nu pierde orientarea, folosim aceeași
+
+56
+00:05:01,533 --> 00:05:06,466
+aliniere orizontală și verticală ca și în modelul Hünfeld.
+
+57
+00:05:07,700 --> 00:05:12,300
+Plăcile A și B sunt folosite pentru intrare,
+
+58
+00:05:12,700 --> 00:05:16,400
+care se pot deplasa la dreapta și, respectiv, la stânga...
+
+59
+00:05:16,833 --> 00:05:23,166
+Și astfel face ca unul sau zero să fie reglabil.
+
+60
+00:05:24,000 --> 00:05:30,400
+Pentru rezultat există foaia de ieșire, care este deplasată în direcția verticală
+
+61
+00:05:30,733 --> 00:05:35,700
+și rezultatul poate reprezenta zero și unu.
+
+62
+00:05:37,133 --> 00:05:43,433
+Logica reală de legătură este implementată prin așa-numita placă de cuplare,
+
+63
+00:05:43,733 --> 00:05:47,466
+care are decupaje speciale pentru funcționarea AND
+
+64
+00:05:47,733 --> 00:05:52,133
+și, de asemenea, se mișcă pe o direcție verticală.
+
+65
+00:05:54,166 --> 00:05:58,000
+Cele trei foi sunt apoi stivuite una peste alta
+
+66
+00:05:58,233 --> 00:06:01,700
+și conectate între ele prin doi pini de comutare.
+
+67
+00:06:02,566 --> 00:06:06,200
+Același efect îl obținem în desenul explodat
+
+68
+00:06:06,466 --> 00:06:10,166
+folosind știfturi cuplati orizontal.
+
+69
+00:06:10,766 --> 00:06:16,033
+Ceea ce încă lipsește este un mecanism de declanșare a circuitului AND.
+
+70
+00:06:16,600 --> 00:06:20,400
+Pentru aceasta, Konrad Zuse a furnizat placa de indexare,
+
+71
+00:06:20,766 --> 00:06:26,300
+care, la fel ca placa de ieșire, se poate deplasa pe verticală.
+
+72
+00:06:27,733 --> 00:06:31,100
+Acum verificăm dacă circuitul funcționează corect
+
+73
+00:06:31,466 --> 00:06:35,533
+și începem cu primul rând al tabelului de adevăr.
+
+74
+00:06:35,866 --> 00:06:40,666
+Ca intrare folosim zero pentru A și zero pentru B.
+
+75
+00:06:41,433 --> 00:06:45,100
+Apoi se declanșează pulsul ceasului.
+
+76
+00:06:45,600 --> 00:06:50,566
+Deoarece cuplarea superioară nu are loc, foaia de ieșire rămâne și ea
+
+77
+00:06:50,566 --> 00:06:55,233
+în poziția inițială și rezultatul este zero.
+
+78
+00:06:55,766 --> 00:06:58,666
+Acum a doua linie...
+
+79
+00:06:59,633 --> 00:07:02,766
+zero și...
+
+80
+00:07:02,766 --> 00:07:04,333
+unu...
+
+81
+00:07:04,433 --> 00:07:08,500
+este din nou zero
+
+82
+00:07:09,066 --> 00:07:13,466
+pentru că cuplajul superior nu este activat din nou.
+
+83
+00:07:14,433 --> 00:07:17,366
+Acum, pentru a treia linie...
+
+84
+00:07:18,133 --> 00:07:24,133
+Setăm intrarea A la unu și B la zero.
+
+85
+00:07:24,966 --> 00:07:29,533
+De această dată, pulsul ceasului mișcă placa de cuplare.
+
+86
+00:07:29,966 --> 00:07:37,933
+Cu toate acestea, deoarece cuplarea inferioară nu are loc, foaia de ieșire rămâne din nou la zero.
+
+87
+00:07:38,933 --> 00:07:43,166
+În cele din urmă, testăm ultimul rând al tabelului
+
+88
+00:07:43,600 --> 00:07:46,833
+și setăm atât intrarea A
+
+89
+00:07:48,500 --> 00:07:53,200
+cât și B la unul.
+
+90
+00:07:54,400 --> 00:08:02,300
+Placa de ieșire este acum deplasată de ceas deoarece
+
+91
+00:08:02,466 --> 00:08:08,900
+au loc atât cuplarea superioară, cât și cea inferioară și rezultatul este unul.
+
+92
+00:08:10,600 --> 00:08:14,433
+Deci am verificat complet poarta AND
+
+93
+00:08:14,433 --> 00:08:18,433
+și apoi ne uităm la poarta XOR.
+
+94
+00:08:18,833 --> 00:08:22,033
+Pentru a face acest lucru, trebuie mai întâi să dizolvăm poarta AND,
+
+95
+00:08:22,233 --> 00:08:25,833
+apoi să scoatem placa de cuplare și,
+
+96
+00:08:25,833 --> 00:08:29,233
+în final, să o înlocuim cu două plăci noi
+
+97
+00:08:29,333 --> 00:08:33,100
+care au decupările corecte pentru funcționarea XOR.
+
+98
+00:08:33,866 --> 00:08:40,066
+Foile sunt apoi reconectate de către pinii comutatorului și voilà...
+
+99
+00:08:40,200 --> 00:08:44,366
+Poarta noastră exclusivă de SAU este complet asamblată!
+
+100
+00:08:44,633 --> 00:08:48,200
+Tabelul de adevăr de această dată arată astfel:
+
+101
+00:08:48,400 --> 00:08:54,600
+dacă A și B sunt egali, rezultatul este zero.
+
+102
+00:08:54,600 --> 00:09:00,200
+Dacă A și B nu sunt egali, operația XOR are ca rezultat unul.
+
+103
+00:09:00,766 --> 00:09:03,600
+Deci, înapoi la testarea circuitului nostru...
+
+104
+00:09:04,566 --> 00:09:08,266
+Zero XOR Zero
+
+105
+00:09:08,700 --> 00:09:13,600
+este egal cu zero!
+
+106
+00:09:17,100 --> 00:09:22,600
+Zero XOR unu
+
+107
+00:09:22,800 --> 00:09:26,400
+este egal cu unu.
+
+108
+00:09:27,300 --> 00:09:30,000
+Acum ați văzut că
+
+109
+00:09:30,000 --> 00:09:35,166
+foaia din dreapta preia cuplajul dacă A și B nu sunt egali.
+
+110
+00:09:38,566 --> 00:09:40,366
+Și continuă cu...
+
+111
+00:09:40,366 --> 00:09:45,133
+Un XOR zero este, de asemenea,
+
+112
+00:09:46,466 --> 00:09:47,600
+egal cu
+
+113
+00:09:48,400 --> 00:09:51,033
+unu.
+
+114
+00:09:51,033 --> 00:09:54,900
+De data aceasta foaia din stânga preia cuplajul.
+
+115
+00:09:55,733 --> 00:09:57,666
+Tot ce rămâne este...
+
+116
+00:10:00,100 --> 00:10:05,533
+Un XOR Unul,
+
+117
+00:10:06,466 --> 00:10:09,966
+care apoi este din nou egal cu zero.
+
+118
+00:10:10,800 --> 00:10:15,200
+Acum că am implementat operațiile logice AND și XOR,
+
+119
+00:10:15,466 --> 00:10:18,033
+încă ne lipsește comutarea simplă.
+
+120
+00:10:18,466 --> 00:10:23,066
+Acesta constă dintr-o tavă de sincronizare și o tavă de ieșire,
+
+121
+00:10:23,066 --> 00:10:28,533
+ambele se pot deplasa pe orizontală, și o tavă de intrare,
+
+122
+00:10:28,533 --> 00:10:31,200
+care este aliniată vertical.
+
+123
+00:10:31,966 --> 00:10:36,533
+Toate cele trei foi sunt bineînțeles conectate din nou cu un știft de comutare.
+
+124
+00:10:36,900 --> 00:10:43,466
+În starea inactivă, ceasul și foile de ieșire nu sunt cuplate și, în consecință, pulsul
+
+125
+00:10:43,466 --> 00:10:46,200
+nu este comutat.
+
+126
+00:10:46,700 --> 00:10:49,466
+Dacă comutatorul este activ,
+
+127
+00:10:50,033 --> 00:10:53,800
+pulsul ceasului este transmis.
+
+128
+00:10:55,066 --> 00:10:58,366
+Cu cele trei elemente de comutare descrise, acum avem toate
+
+129
+00:10:58,366 --> 00:11:02,733
+ingredientele pentru modelul de adăugare Hünfeld.
+
+130
+00:11:02,733 --> 00:11:06,900
+În cele ce urmează, explicăm acum pas cu pas cum este construit sumatorul.
+
+131
+00:11:07,200 --> 00:11:13,466
+Începem pentru asta din dreapta sus, unde sunt instalate o poartă AND și o poartă XOR.
+
+132
+00:11:13,466 --> 00:11:19,400
+Circuitul are două intrări și anume A1 și B1.
+
+133
+00:11:20,100 --> 00:11:28,600
+Apoi există două ieșiri, și anume R pentru rezultatul sumei și U pentru transport.
+
+134
+00:11:29,100 --> 00:11:33,200
+Porțile sunt activate prin prima placă a ceasului.
+
+135
+00:11:34,066 --> 00:11:40,033
+Și aici din nou tabelul de adevăr pentru circuit, care în zilele noastre, apropo,
+
+136
+00:11:40,300 --> 00:11:43,000
+se numește jumătate de suma.
+
+137
+00:11:43,000 --> 00:11:48,133
+Această componentă are, așadar, două intrări, și
+
+138
+00:11:48,133 --> 00:11:51,033
+anume primul sumand A1
+
+139
+00:11:51,633 --> 00:11:54,733
+și al doilea sumand B1.
+
+140
+00:11:55,333 --> 00:11:58,166
+Apoi avem două ieșiri,
+
+141
+00:11:58,166 --> 00:12:04,300
+și anume suma R și transportul U.
+
+142
+00:12:05,000 --> 00:12:08,366
+Apoi testăm circuitul...
+
+143
+00:12:09,633 --> 00:12:12,200
+zero plus zero
+
+144
+00:12:12,700 --> 00:12:14,533
+este egal cu
+
+145
+00:12:16,800 --> 00:12:18,466
+zero!
+
+146
+00:12:18,600 --> 00:12:21,466
+Și transportul este, de asemenea, zero.
+
+147
+00:12:22,133 --> 00:12:27,266
+Atât AND cât și XOR nu trec pulsul ceasului.
+
+148
+00:12:29,000 --> 00:12:35,000
+În a doua linie setăm A1 la zero
+
+149
+00:12:35,466 --> 00:12:39,600
+și B1 la unu.
+
+150
+00:12:40,300 --> 00:12:43,600
+Aceasta activează poarta XOR
+
+151
+00:12:44,000 --> 00:12:45,700
+și ceasul
+
+152
+00:12:45,700 --> 00:12:47,833
+este comutat.
+
+153
+00:12:48,966 --> 00:12:52,933
+Rezultatul este unul și transportul
+
+154
+00:12:52,933 --> 00:12:55,633
+rămâne la zero.
+
+155
+00:12:56,000 --> 00:12:57,900
+Același lucru este valabil și pentru
+
+156
+00:12:59,366 --> 00:13:03,433
+unu plus zero.
+
+157
+00:13:04,466 --> 00:13:06,700
+Să ne uităm la
+
+158
+00:13:06,900 --> 00:13:10,366
+ultimul rând al tabelului de adevăr.
+
+159
+00:13:12,600 --> 00:13:15,333
+Unu și
+
+160
+00:13:16,666 --> 00:13:18,333
+unu
+
+161
+00:13:18,400 --> 00:13:21,333
+activează poarta AND de data aceasta
+
+162
+00:13:22,000 --> 00:13:24,266
+și ceasul face ca
+
+163
+00:13:24,466 --> 00:13:27,366
+transportul să se stabilească.
+
+164
+00:13:28,966 --> 00:13:31,733
+Suma rămâne la zero.
+
+165
+00:13:36,733 --> 00:13:39,733
+Deci jumătatea noastră de adunare pare să funcționeze.
+
+166
+00:13:40,200 --> 00:13:44,333
+El poate adăuga corect o cifră binară și poate determina transportul.
+
+167
+00:13:44,700 --> 00:13:48,766
+Circuitul ar fi deja suficient pentru ultima cifră a unui număr binar.
+
+168
+00:13:49,200 --> 00:13:55,300
+Din penultima poziție, totuși, trebuie luată în considerare transportul adăugării anterioare.
+
+169
+00:13:55,733 --> 00:14:00,633
+Pentru a realiza acest lucru, trebuie să extindem puțin circuitul.
+
+170
+00:14:01,500 --> 00:14:04,633
+Aici, din nou, reprezentarea logică a jumătății noastre de adunare
+
+171
+00:14:04,633 --> 00:14:09,266
+cu sumandușii A1 și B1
+
+172
+00:14:09,466 --> 00:14:14,433
+și, ca rezultat, suma R și purtarea U.
+
+173
+00:14:14,766 --> 00:14:22,166
+În plus față de A1 și B1, obținem acum transportul U1 ca a treia intrare,
+
+174
+00:14:22,733 --> 00:14:26,466
+care vine din adăugarea cifra anterioară.
+
+175
+00:14:26,700 --> 00:14:32,566
+Noua sumă R1 și noua purtare U2
+
+176
+00:14:32,566 --> 00:14:38,400
+trebuie apoi calculate din A1, B1 și U1 folosind o logică suplimentară
+
+177
+00:14:38,600 --> 00:14:43,333
+. Tabelul de adevăr are acum încă o coloană.
+
+178
+00:14:43,633 --> 00:14:48,266
+Apropo, acum suntem în proces de construire a unui așa-numit sumator complet,
+
+179
+00:14:48,633 --> 00:14:54,300
+cu abrevierea FA pentru „Full Adder”.
+
+180
+00:14:55,366 --> 00:14:58,200
+În primul rând, să ne uităm
+
+181
+00:14:58,200 --> 00:15:03,700
+la calculul sumei R1, care devine una ori de câte ori
+
+182
+00:15:03,700 --> 00:15:09,033
+este setată exact o intrare A1, B1 sau U1, sau toate trei împreună.
+
+183
+00:15:09,300 --> 00:15:12,833
+Acest comportament poate fi realizat cu un alt element XOR,
+
+184
+00:15:13,200 --> 00:15:19,166
+în care alimentăm transportul U1 și rezultatul primei operații XOR.
+
+185
+00:15:19,166 --> 00:15:25,533
+Poarta XOR superioară comută ori de câte ori este setat A1 sau B1.
+
+186
+00:15:25,833 --> 00:15:34,300
+Pentru U1 egal cu zero, al doilea XOR comută apoi și rezultatul final este unul.
+
+187
+00:15:34,466 --> 00:15:39,900
+Dacă A1 și B1 sunt zero și U1 este setat,
+
+188
+00:15:40,200 --> 00:15:45,366
+XOR inferior comută și el și rezultatul este din nou unul.
+
+189
+00:15:46,300 --> 00:15:50,800
+Acum apare întrebarea cum informațiile de la prima poartă XOR
+
+190
+00:15:51,166 --> 00:15:53,966
+pot pătrunde mecanic în a doua.
+
+191
+00:15:54,200 --> 00:15:58,000
+La urma urmei, impulsul trebuie să vină cumva după colț.
+
+192
+00:15:58,466 --> 00:16:03,566
+Această performanță este realizată printr-o a doua placă de fixare și un comutator.
+
+193
+00:16:04,100 --> 00:16:07,000
+Să demonstrăm cum funcționează acest lucru în principiu
+
+194
+00:16:07,000 --> 00:16:11,533
+și să luăm rândul trei din tabelul de adevăr:
+
+195
+00:16:11,533 --> 00:16:18,600
+Zero plus unu activează poarta XOR.
+
+196
+00:16:19,600 --> 00:16:23,266
+Apoi prima bătaie este declanșată
+
+197
+00:16:23,633 --> 00:16:26,233
+și comutatorul este răsturnat.
+
+198
+00:16:27,000 --> 00:16:30,633
+În ciclul 2, informațiile
+
+199
+00:16:30,633 --> 00:16:37,800
+de la primul XOR sunt apoi mutate în al doilea XOR prin intermediul comutatorului și o activează.
+
+200
+00:16:38,866 --> 00:16:41,400
+Impulsul curge după colț.
+
+201
+00:16:41,766 --> 00:16:49,233
+Acum avem nevoie de o a treia bară pentru a declanșa a doua poartă XOR
+
+202
+00:16:49,466 --> 00:16:53,300
+și pentru a calcula rezultatul corect.
+
+203
+00:16:54,000 --> 00:16:59,900
+Acum că putem calcula rezultatul R1, purtarea U2 încă lipsește.
+
+204
+00:17:00,533 --> 00:17:08,933
+Aceasta returnează unul dacă sunt setate atât A1, cât și B1, care activează apoi poarta AND.
+
+205
+00:17:09,833 --> 00:17:12,466
+În acest caz, informația este din nou
+
+206
+00:17:12,466 --> 00:17:17,133
+împinsă după colț cu ajutorul unui comutator de la bara 2.
+
+207
+00:17:17,833 --> 00:17:22,933
+Cazurile în care sunt setate fie A1, fie B1,
+
+208
+00:17:23,400 --> 00:17:26,266
+care activează XOR superior, încă lipsesc.
+
+209
+00:17:26,700 --> 00:17:31,700
+În plus, există transportul U1 din poziția anterioară.
+
+210
+00:17:32,433 --> 00:17:36,433
+Redirecționarea transportului se realizează cu ușurință prin
+
+211
+00:17:36,733 --> 00:17:41,700
+deplasarea informațiilor superioare XOR de la U1 la U2 cu ajutorul unui alt comutator
+
+212
+00:17:41,700 --> 00:17:47,166
+, care bineînțeles, placa de ceas 2 preia din nou.
+
+213
+00:17:47,733 --> 00:17:52,700
+Astfel, sumatorul nostru complet este complet și poate
+
+214
+00:17:52,700 --> 00:17:57,133
+servi acum ca element de bază pentru teoretic orice număr de locuri dintr-un sumator.
+
+215
+00:17:58,500 --> 00:18:01,933
+Modelul Hünfeld folosește două cifre binare.
+
+216
+00:18:02,166 --> 00:18:07,633
+Așa că haideți să copiem o dată sumatorul complet și să ajustam etichetele.
+
+217
+00:18:08,500 --> 00:18:14,166
+Apoi conectăm cele două părți folosind placa de transfer U2.
+
+218
+00:18:14,600 --> 00:18:19,200
+Și sumatorul nostru de 2 biți este complet cu următorul tabel de adevăr:
+
+219
+00:18:19,633 --> 00:18:23,433
+Să calculăm mai întâi un exemplu fără transport.
+
+220
+00:18:23,733 --> 00:18:31,166
+Ce zici de doi plus unu?
+
+221
+00:18:31,433 --> 00:18:34,766
+Intrarea declanșează cele două porți XOR.
+
+222
+00:18:35,000 --> 00:18:39,966
+Apoi bara 1 activează cele patru comutatoare.
+
+223
+00:18:40,333 --> 00:18:44,566
+Bara 2 împinge informațiile XOR după colț
+
+224
+00:18:44,733 --> 00:18:48,233
+și activează porțile XOR inferioare.
+
+225
+00:18:48,600 --> 00:18:52,533
+În cele din urmă, a treia bară evaluează rezultatul,
+
+226
+00:18:52,800 --> 00:18:59,033
+care, așa cum era de așteptat, este 001 în binar sau trei în zecimală.
+
+227
+00:18:59,633 --> 00:19:03,200
+În acest caz, lanțul de transport nu a fost încă folosit.
+
+228
+00:19:03,600 --> 00:19:09,866
+Așa că în sfârșit facem exemplul de la început cu transferul, deci...
+
+229
+00:19:11,333 --> 00:19:12,433
+trei
+
+230
+00:19:13,100 --> 00:19:14,100
+plus
+
+231
+00:19:15,233 --> 00:19:16,533
+unu.
+
+232
+00:19:16,766 --> 00:19:23,000
+Intrarea activează prima poartă XOR și cea de-a doua poartă AND.
+
+233
+00:19:23,600 --> 00:19:29,333
+Ceasul 1 declanșează comutatoarele pentru lanțul de transport,
+
+234
+00:19:29,333 --> 00:19:35,733
+precum și comutatorul pentru a calcula transportul U2 cu locul doi.
+
+235
+00:19:36,000 --> 00:19:40,700
+Bara 2 mută transportul la U3.
+
+236
+00:19:40,866 --> 00:19:45,700
+Și bara 3 nu mai are niciun efect.
+
+237
+00:19:45,933 --> 00:19:53,233
+Rezultatul este corect binar 100 sau zecimal patru.
+
+238
+00:19:54,300 --> 00:19:55,200
+Terminat!
+
+239
+00:19:55,966 --> 00:20:00,000
+Konrad Zuse a conceput cu adevărat un lucru destul de ingenios:
+
+240
+00:20:00,533 --> 00:20:04,966
+primul adunator binar din lume!
+
+241
+00:20:05,700 --> 00:20:07,033
+Colegii săi
+
+242
+00:20:07,033 --> 00:20:08,766
+Wilhelm Schickard și...
+
+243
+00:20:08,766 --> 00:20:10,766
+Gottfried Wilhelm Leibniz
+
+244
+00:20:10,766 --> 00:20:17,666
+ar aplauda cu putere!
+

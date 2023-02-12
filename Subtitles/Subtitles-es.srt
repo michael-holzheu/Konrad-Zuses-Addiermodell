@@ -1,0 +1,976 @@
+1
+00:00:34,133 --> 00:00:41,266
+La era del cálculo automático comienza en 1623,
+
+2
+00:00:41,266 --> 00:00:45,000
+cuando Wilhelm Schickard completa su máquina calculadora de madera.
+
+3
+00:00:45,600 --> 00:00:51,100
+Esta máquina usa engranajes y trabaja en el sistema decimal.
+
+4
+00:00:51,700 --> 00:00:56,333
+Dos engranajes pueden representar un número de dos dígitos.
+
+5
+00:00:57,066 --> 00:01:01,100
+El manejo del acarreo durante la adición se
+
+6
+00:01:01,500 --> 00:01:04,400
+realiza con la ayuda de pasadores y otra rueda dentada.
+
+7
+00:01:04,566 --> 00:01:06,900
+Es así...
+
+8
+00:01:08,066 --> 00:01:10,700
+Decenas Llevar "Uno" y...
+
+9
+00:01:11,900 --> 00:01:14,266
+Llevar "Dos"...
+
+10
+00:01:15,533 --> 00:01:17,566
+Y...
+
+11
+00:01:17,700 --> 00:01:21,433
+Llevar "Tres" hace un total de 30!
+
+12
+00:01:22,900 --> 00:01:25,466
+Como puede ver, los engranajes son realmente
+
+13
+00:01:25,500 --> 00:01:28,433
+geniales para sumar en el sistema decimal.
+
+14
+00:01:29,600 --> 00:01:33,466
+Sin embargo, todas las computadoras actuales funcionan en el sistema binario,
+
+15
+00:01:34,133 --> 00:01:38,366
+que fue documentado por Gottfried Wilhelm Leibniz a fines del siglo XVII,
+
+16
+00:01:38,366 --> 00:01:42,400
+alrededor de 75 años después de la invención de Schickard.
+
+17
+00:01:43,200 --> 00:01:45,900
+Como ejemplo, Herr Leibniz ahora nos muestra cómo calcular
+
+18
+00:01:46,266 --> 00:01:50,166
+3 + 1 en su sistema binario.
+
+19
+00:01:51,000 --> 00:01:57,266
+El 3 se representa como 1 * 2^1 + 1 * 2^0, es decir,
+
+20
+00:01:57,833 --> 00:02:01,766
+1 * 2 + 1 * 1.
+
+21
+00:02:02,066 --> 00:02:07,833
+El 1 corresponde a 0 * 2 + 1 * 1.
+
+22
+00:02:08,566 --> 00:02:12,633
+Formamos la suma escribiendo los dos números uno debajo del otro.
+
+23
+00:02:13,633 --> 00:02:17,966
+Al igual que aprendimos en la escuela para el sistema decimal.
+
+24
+00:02:19,200 --> 00:02:24,700
+Entonces 1 + 1 = 0 ... ¡1 anotado!
+
+25
+00:02:25,433 --> 00:02:30,666
+1 + (recordado) 1 = 0 ¡Y de nuevo 1 recordado!
+
+26
+00:02:31,100 --> 00:02:36,366
+Finalmente, 0 + 1 = 1...
+
+27
+00:02:36,366 --> 00:02:41,800
+Entonces la suma es 2 * 2^2 o 1 * 4, ¡
+
+28
+00:02:42,200 --> 00:02:45,933
+o simplemente cuatro decimales!
+
+29
+00:02:46,966 --> 00:02:50,800
+En el cálculo vimos que
+
+30
+00:02:51,100 --> 00:02:56,533
+teníamos que tener en cuenta dos veces el acarreo del dígito inferior al superior.
+
+31
+00:02:57,066 --> 00:03:00,300
+Nos encontraremos con este concepto varias veces a continuación.
+
+32
+00:03:00,900 --> 00:03:04,000
+Así que ahora llegamos al mundo moderno de la tecnología
+
+33
+00:03:04,000 --> 00:03:10,166
+con la primera calculadora binaria en el universo conocido, ¡a saber, la Z1!
+
+34
+00:03:10,366 --> 00:03:13,500
+Konrad Zuse ensambló su obra
+
+35
+00:03:13,866 --> 00:03:18,933
+en 1937 a partir de miles de piezas de chapa.
+
+36
+00:03:19,500 --> 00:03:23,800
+Aquí vemos la réplica del Technikmuseum de Berlín.
+
+37
+00:03:24,800 --> 00:03:29,666
+Esta sección aquí, por ejemplo, implementa la unidad aritmética con la unidad de suma.
+
+38
+00:03:30,300 --> 00:03:34,300
+Dada la multitud de elementos individuales, parece casi imposible
+
+39
+00:03:34,533 --> 00:03:38,233
+entender cómo se supone que funciona esta maravilla en su esencia.
+
+40
+00:03:38,600 --> 00:03:41,933
+Afortunadamente, sin embargo, hay un
+
+41
+00:03:41,933 --> 00:03:47,766
+modelo en el Museo Zuse en Hünfeld que muestra claramente los principios subyacentes.
+
+42
+00:03:48,833 --> 00:03:54,400
+Para implementar la función de sumador, Zuse usó tres tipos de componentes,
+
+43
+00:03:54,400 --> 00:03:55,633
+a saber...
+
+44
+00:03:55,633 --> 00:03:58,233
+puertas AND y XOR,
+
+45
+00:03:58,433 --> 00:04:01,200
+así como elementos de interruptores simples.
+
+46
+00:04:02,033 --> 00:04:05,433
+El modelo es más o menos el mismo que el circuito sumador
+
+47
+00:04:05,433 --> 00:04:10,100
+que dibujó el propio Konrad Zuse.
+
+48
+00:04:15,166 --> 00:04:17,700
+A continuación, por lo tanto, primero describiremos la estructura
+
+49
+00:04:17,700 --> 00:04:22,466
+de estos tres elementos básicos, comenzando con la puerta AND.
+
+50
+00:04:22,933 --> 00:04:31,166
+Este tiene dos entradas A y B y una salida que representa el resultado.
+
+51
+00:04:31,500 --> 00:04:37,533
+La tabla de verdad para la operación AND define el resultado para cada posible A y B.
+
+52
+00:04:37,800 --> 00:04:43,133
+Solo cuando A y B son uno, la salida también es una.
+
+53
+00:04:43,533 --> 00:04:48,733
+Para todos los demás casos obtenemos el cero.
+
+54
+00:04:48,900 --> 00:04:56,833
+Echemos un vistazo a cómo Konrad Zuse implementó esta operación utilizando sus piezas de chapa.
+
+55
+00:04:57,700 --> 00:05:01,533
+Para no perder la orientación, utilizamos la misma
+
+56
+00:05:01,533 --> 00:05:06,466
+alineación horizontal y vertical que en el modelo de Hünfeld.
+
+57
+00:05:07,700 --> 00:05:12,300
+Las placas A y B se utilizan para la entrada,
+
+58
+00:05:12,700 --> 00:05:16,400
+que puede moverse a la derecha y a la izquierda respectivamente...
+
+59
+00:05:16,833 --> 00:05:23,166
+Y así hacer que el uno o el cero sean ajustables.
+
+60
+00:05:24,000 --> 00:05:30,400
+Para el resultado está la hoja de salida, que se mueve en dirección vertical
+
+61
+00:05:30,733 --> 00:05:35,700
+y el resultado puede representar cero y uno.
+
+62
+00:05:37,133 --> 00:05:43,433
+La lógica de enlace real se implementa a través de la llamada placa de acoplamiento,
+
+63
+00:05:43,733 --> 00:05:47,466
+que tiene cortes especiales para la operación AND
+
+64
+00:05:47,733 --> 00:05:52,133
+y también se mueve en dirección vertical.
+
+65
+00:05:54,166 --> 00:05:58,000
+Luego, las tres hojas se apilan una encima de la otra
+
+66
+00:05:58,233 --> 00:06:01,700
+y se conectan entre sí mediante dos pines de conmutación.
+
+67
+00:06:02,566 --> 00:06:06,200
+Conseguimos el mismo efecto en el dibujo explosionado
+
+68
+00:06:06,466 --> 00:06:10,166
+utilizando pines acoplados horizontalmente.
+
+69
+00:06:10,766 --> 00:06:16,033
+Lo que todavía falta es un mecanismo para activar el circuito AND.
+
+70
+00:06:16,600 --> 00:06:20,400
+Para ello, Konrad Zuse proporcionó la placa de indexación
+
+71
+00:06:20,766 --> 00:06:26,300
+que, al igual que la placa de salida, puede moverse verticalmente.
+
+72
+00:06:27,733 --> 00:06:31,100
+Ahora verificamos si el circuito funciona correctamente
+
+73
+00:06:31,466 --> 00:06:35,533
+y comenzamos con la primera fila de la tabla de verdad.
+
+74
+00:06:35,866 --> 00:06:40,666
+Como entrada usamos cero para A y cero para B.
+
+75
+00:06:41,433 --> 00:06:45,100
+Entonces se activa el pulso del reloj.
+
+76
+00:06:45,600 --> 00:06:50,566
+Debido a que no se produce el acoplamiento superior, la hoja de salida también permanece
+
+77
+00:06:50,566 --> 00:06:55,233
+en su posición original y el resultado es cero.
+
+78
+00:06:55,766 --> 00:06:58,666
+Ahora la segunda línea...
+
+79
+00:06:59,633 --> 00:07:02,766
+cero y...
+
+80
+00:07:02,766 --> 00:07:04,333
+uno...
+
+81
+00:07:04,433 --> 00:07:08,500
+vuelve a ser cero
+
+82
+00:07:09,066 --> 00:07:13,466
+porque el acoplamiento superior no se vuelve a activar.
+
+83
+00:07:14,433 --> 00:07:17,366
+Ahora, para la tercera línea...
+
+84
+00:07:18,133 --> 00:07:24,133
+Ponemos la entrada A en uno y B en cero.
+
+85
+00:07:24,966 --> 00:07:29,533
+Esta vez el pulso del reloj mueve la placa de acoplamiento.
+
+86
+00:07:29,966 --> 00:07:37,933
+Sin embargo, debido a que no se produce el acoplamiento inferior, la hoja de salida vuelve a quedar en cero.
+
+87
+00:07:38,933 --> 00:07:43,166
+Finalmente, probamos la última fila de la tabla
+
+88
+00:07:43,600 --> 00:07:46,833
+y establecemos las entradas A
+
+89
+00:07:48,500 --> 00:07:53,200
+y B en uno.
+
+90
+00:07:54,400 --> 00:08:02,300
+La placa de salida ahora está desplazada por el reloj porque
+
+91
+00:08:02,466 --> 00:08:08,900
+se produce tanto el acoplamiento superior como el inferior y el resultado es el uno.
+
+92
+00:08:10,600 --> 00:08:14,433
+Así que hemos verificado completamente la puerta AND
+
+93
+00:08:14,433 --> 00:08:18,433
+y luego miramos la puerta XOR.
+
+94
+00:08:18,833 --> 00:08:22,033
+Para hacer esto, primero tenemos que disolver la puerta AND,
+
+95
+00:08:22,233 --> 00:08:25,833
+luego quitar la placa de acoplamiento y
+
+96
+00:08:25,833 --> 00:08:29,233
+finalmente reemplazarla con dos placas nuevas
+
+97
+00:08:29,333 --> 00:08:33,100
+que tengan los cortes correctos para la operación XOR.
+
+98
+00:08:33,866 --> 00:08:40,066
+Las hojas finalmente se vuelven a conectar mediante los pines del interruptor y listo... ¡
+
+99
+00:08:40,200 --> 00:08:44,366
+Nuestra exclusiva puerta OR está completamente ensamblada!
+
+100
+00:08:44,633 --> 00:08:48,200
+La tabla de verdad esta vez se ve así:
+
+101
+00:08:48,400 --> 00:08:54,600
+si A y B son iguales, el resultado es cero.
+
+102
+00:08:54,600 --> 00:09:00,200
+Si A y B no son iguales, la operación XOR da como resultado uno.
+
+103
+00:09:00,766 --> 00:09:03,600
+Volvamos a probar nuestro circuito... ¡
+
+104
+00:09:04,566 --> 00:09:08,266
+Zero XOR Zero
+
+105
+00:09:08,700 --> 00:09:13,600
+es igual a cero!
+
+106
+00:09:17,100 --> 00:09:22,600
+Cero XOR uno
+
+107
+00:09:22,800 --> 00:09:26,400
+es igual a uno.
+
+108
+00:09:27,300 --> 00:09:30,000
+Ahora has visto que la
+
+109
+00:09:30,000 --> 00:09:35,166
+hoja de la derecha se hace cargo del acoplamiento si A y B no son iguales.
+
+110
+00:09:38,566 --> 00:09:40,366
+Y continúa con...
+
+111
+00:09:40,366 --> 00:09:45,133
+Un cero XOR también
+
+112
+00:09:46,466 --> 00:09:47,600
+es igual a
+
+113
+00:09:48,400 --> 00:09:51,033
+uno.
+
+114
+00:09:51,033 --> 00:09:54,900
+Esta vez la hoja de la izquierda se hace cargo del acoplamiento.
+
+115
+00:09:55,733 --> 00:09:57,666
+Todo lo que queda es...
+
+116
+00:10:00,100 --> 00:10:05,533
+One XOR One,
+
+117
+00:10:06,466 --> 00:10:09,966
+que luego es igual a cero nuevamente.
+
+118
+00:10:10,800 --> 00:10:15,200
+Ahora que hemos implementado las operaciones lógicas AND y XOR,
+
+119
+00:10:15,466 --> 00:10:18,033
+todavía nos falta el cambio simple.
+
+120
+00:10:18,466 --> 00:10:23,066
+Consta de una bandeja de tiempo y una de salida,
+
+121
+00:10:23,066 --> 00:10:28,533
+las cuales se pueden mover horizontalmente, y una bandeja de entrada,
+
+122
+00:10:28,533 --> 00:10:31,200
+que se alinea verticalmente.
+
+123
+00:10:31,966 --> 00:10:36,533
+Las tres hojas, por supuesto, están conectadas nuevamente con un pin de interruptor.
+
+124
+00:10:36,900 --> 00:10:43,466
+En el estado inactivo, el reloj y las hojas de salida no están acoplados y, en consecuencia, el pulso
+
+125
+00:10:43,466 --> 00:10:46,200
+no se conmuta.
+
+126
+00:10:46,700 --> 00:10:49,466
+Si el interruptor está activo,
+
+127
+00:10:50,033 --> 00:10:53,800
+el pulso del reloj se reenvía.
+
+128
+00:10:55,066 --> 00:10:58,366
+Con los tres elementos de conmutación descritos, ahora tenemos todos
+
+129
+00:10:58,366 --> 00:11:02,733
+los ingredientes para el modelo de adición de Hünfeld.
+
+130
+00:11:02,733 --> 00:11:06,900
+A continuación explicamos paso a paso cómo se construye el sumador.
+
+131
+00:11:07,200 --> 00:11:13,466
+Comenzamos por esto en la parte superior derecha, donde están instaladas una puerta AND y una XOR.
+
+132
+00:11:13,466 --> 00:11:19,400
+El circuito tiene dos entradas, a saber, A1 y B1.
+
+133
+00:11:20,100 --> 00:11:28,600
+Luego hay dos salidas, a saber, R para el resultado de la suma y U para el acarreo.
+
+134
+00:11:29,100 --> 00:11:33,200
+Las puertas se activan a través de la primera placa del reloj.
+
+135
+00:11:34,066 --> 00:11:40,033
+Y aquí de nuevo la tabla de verdad del circuito, que hoy en día, por cierto,
+
+136
+00:11:40,300 --> 00:11:43,000
+se llama medio sumador.
+
+137
+00:11:43,000 --> 00:11:48,133
+Por lo tanto, este componente tiene dos entradas,
+
+138
+00:11:48,133 --> 00:11:51,033
+a saber, el primer sumando A1
+
+139
+00:11:51,633 --> 00:11:54,733
+y el segundo sumando B1.
+
+140
+00:11:55,333 --> 00:11:58,166
+Luego tenemos dos salidas,
+
+141
+00:11:58,166 --> 00:12:04,300
+a saber, la suma R y el acarreo U.
+
+142
+00:12:05,000 --> 00:12:08,366
+A continuación, probamos el circuito... ¡
+
+143
+00:12:09,633 --> 00:12:12,200
+cero más cero
+
+144
+00:12:12,700 --> 00:12:14,533
+es igual a
+
+145
+00:12:16,800 --> 00:12:18,466
+cero!
+
+146
+00:12:18,600 --> 00:12:21,466
+Y el acarreo también es cero.
+
+147
+00:12:22,133 --> 00:12:27,266
+Tanto AND como XOR no pasan el pulso del reloj.
+
+148
+00:12:29,000 --> 00:12:35,000
+En la segunda línea ponemos A1 a cero
+
+149
+00:12:35,466 --> 00:12:39,600
+y B1 a uno.
+
+150
+00:12:40,300 --> 00:12:43,600
+Esto activa la puerta XOR
+
+151
+00:12:44,000 --> 00:12:45,700
+y el reloj
+
+152
+00:12:45,700 --> 00:12:47,833
+se cambia.
+
+153
+00:12:48,966 --> 00:12:52,933
+El resultado es uno y el acarreo
+
+154
+00:12:52,933 --> 00:12:55,633
+permanece en cero.
+
+155
+00:12:56,000 --> 00:12:57,900
+Lo mismo se aplica a
+
+156
+00:12:59,366 --> 00:13:03,433
+uno más cero.
+
+157
+00:13:04,466 --> 00:13:06,700
+Veamos la
+
+158
+00:13:06,900 --> 00:13:10,366
+última fila de la tabla de verdad.
+
+159
+00:13:12,600 --> 00:13:15,333
+Uno y
+
+160
+00:13:16,666 --> 00:13:18,333
+uno
+
+161
+00:13:18,400 --> 00:13:21,333
+activan la compuerta AND esta vez
+
+162
+00:13:22,000 --> 00:13:24,266
+y el reloj hace que
+
+163
+00:13:24,466 --> 00:13:27,366
+se establezca el acarreo.
+
+164
+00:13:28,966 --> 00:13:31,733
+La suma se queda en cero.
+
+165
+00:13:36,733 --> 00:13:39,733
+Así que nuestro medio sumador parece estar funcionando.
+
+166
+00:13:40,200 --> 00:13:44,333
+Puede sumar un dígito binario correctamente y determinar el acarreo.
+
+167
+00:13:44,700 --> 00:13:48,766
+El circuito ya sería suficiente para el último dígito de un número binario.
+
+168
+00:13:49,200 --> 00:13:55,300
+Sin embargo, a partir de la penúltima posición, aún se debe tener en cuenta el acarreo de la adición anterior.
+
+169
+00:13:55,733 --> 00:14:00,633
+Para lograr eso, necesitamos expandir un poco el circuito.
+
+170
+00:14:01,500 --> 00:14:04,633
+Aquí nuevamente la representación lógica de nuestro medio sumador
+
+171
+00:14:04,633 --> 00:14:09,266
+con los sumandos A1 y B1
+
+172
+00:14:09,466 --> 00:14:14,433
+y como resultado la suma R y el acarreo U.
+
+173
+00:14:14,766 --> 00:14:22,166
+Además de A1 y B1 ahora obtenemos el acarreo U1 como una tercera entrada,
+
+174
+00:14:22,733 --> 00:14:26,466
+que proviene de la suma del dígito anterior.
+
+175
+00:14:26,700 --> 00:14:32,566
+La nueva suma R1 y el nuevo acarreo U2
+
+176
+00:14:32,566 --> 00:14:38,400
+deben calcularse a partir de A1, B1 y U1 utilizando lógica adicional
+
+177
+00:14:38,600 --> 00:14:43,333
+. La tabla de verdad ahora tiene una columna más.
+
+178
+00:14:43,633 --> 00:14:48,266
+Por cierto, ahora estamos en el proceso de construir un sumador completo,
+
+179
+00:14:48,633 --> 00:14:54,300
+con la abreviatura FA de "sumador completo".
+
+180
+00:14:55,366 --> 00:14:58,200
+En primer lugar, veamos
+
+181
+00:14:58,200 --> 00:15:03,700
+el cálculo de la suma R1, que se convierte en uno cada vez que
+
+182
+00:15:03,700 --> 00:15:09,033
+se establece exactamente una entrada A1, B1 o U1, o las tres juntas.
+
+183
+00:15:09,300 --> 00:15:12,833
+Este comportamiento se puede lograr con otro elemento XOR,
+
+184
+00:15:13,200 --> 00:15:19,166
+en el que alimentamos el acarreo U1 y el resultado de la primera operación XOR.
+
+185
+00:15:19,166 --> 00:15:25,533
+La puerta XOR superior cambia cada vez que se establece A1 o B1.
+
+186
+00:15:25,833 --> 00:15:34,300
+Para U1 igual a cero, el segundo XOR cambia y el resultado final es uno.
+
+187
+00:15:34,466 --> 00:15:39,900
+Si A1 y B1 son cero y se establece U1,
+
+188
+00:15:40,200 --> 00:15:45,366
+el XOR inferior también cambia y el resultado es uno nuevamente.
+
+189
+00:15:46,300 --> 00:15:50,800
+Ahora surge la pregunta de cómo la información de la primera puerta XOR
+
+190
+00:15:51,166 --> 00:15:53,966
+puede entrar mecánicamente en la segunda.
+
+191
+00:15:54,200 --> 00:15:58,000
+Después de todo, el impulso tiene que llegar a la vuelta de la esquina de alguna manera.
+
+192
+00:15:58,466 --> 00:16:03,566
+Esta hazaña se logra mediante una segunda placa de tachuelas y un interruptor.
+
+193
+00:16:04,100 --> 00:16:07,000
+Demostremos cómo funciona esto en principio
+
+194
+00:16:07,000 --> 00:16:11,533
+y tomemos la fila tres de la tabla de verdad:
+
+195
+00:16:11,533 --> 00:16:18,600
+Cero más uno activa la puerta XOR.
+
+196
+00:16:19,600 --> 00:16:23,266
+Luego se activa el primer tiempo
+
+197
+00:16:23,633 --> 00:16:26,233
+y se activa el interruptor.
+
+198
+00:16:27,000 --> 00:16:30,633
+En el ciclo 2, la información
+
+199
+00:16:30,633 --> 00:16:37,800
+del primer XOR se transfiere al segundo XOR a través del interruptor y lo activa.
+
+200
+00:16:38,866 --> 00:16:41,400
+El impulso fluyó a la vuelta de la esquina.
+
+201
+00:16:41,766 --> 00:16:49,233
+Ahora necesitamos una tercera barra para activar la segunda puerta XOR
+
+202
+00:16:49,466 --> 00:16:53,300
+y calcular el resultado correcto.
+
+203
+00:16:54,000 --> 00:16:59,900
+Ahora que podemos calcular el resultado R1, todavía falta el acarreo U2.
+
+204
+00:17:00,533 --> 00:17:08,933
+Esto devuelve uno si tanto A1 como B1 están configurados, lo que luego activa la puerta AND.
+
+205
+00:17:09,833 --> 00:17:12,466
+En este caso, la información se
+
+206
+00:17:12,466 --> 00:17:17,133
+empuja nuevamente a la vuelta de la esquina con la ayuda de un interruptor de la barra 2.
+
+207
+00:17:17,833 --> 00:17:22,933
+Todavía faltan los casos en los que se establece A1 o B1,
+
+208
+00:17:23,400 --> 00:17:26,266
+que activa el XOR superior.
+
+209
+00:17:26,700 --> 00:17:31,700
+Además, existe el acarreo U1 desde la posición anterior.
+
+210
+00:17:32,433 --> 00:17:36,433
+El reenvío del acarreo se realiza fácilmente
+
+211
+00:17:36,733 --> 00:17:41,700
+cambiando la información XOR superior de U1 a U2 con la ayuda de otro interruptor
+
+212
+00:17:41,700 --> 00:17:47,166
+, que, por supuesto, la placa de reloj 2 vuelve a tomar el relevo.
+
+213
+00:17:47,733 --> 00:17:52,700
+Por lo tanto, nuestro sumador completo está completo y ahora puede
+
+214
+00:17:52,700 --> 00:17:57,133
+servir como un elemento básico para teóricamente cualquier número de lugares en un sumador.
+
+215
+00:17:58,500 --> 00:18:01,933
+El modelo de Hünfeld utiliza dos dígitos binarios.
+
+216
+00:18:02,166 --> 00:18:07,633
+Así que copiemos nuestro sumador completo una vez y ajustemos las etiquetas.
+
+217
+00:18:08,500 --> 00:18:14,166
+Luego conectamos las dos partes usando la placa de transferencia U2.
+
+218
+00:18:14,600 --> 00:18:19,200
+Y nuestro sumador de 2 bits se completa con la siguiente tabla de verdad:
+
+219
+00:18:19,633 --> 00:18:23,433
+Primero calculemos un ejemplo sin acarreo.
+
+220
+00:18:23,733 --> 00:18:31,166
+¿Qué tal dos más uno?
+
+221
+00:18:31,433 --> 00:18:34,766
+La entrada activa las dos puertas XOR.
+
+222
+00:18:35,000 --> 00:18:39,966
+Luego, la barra 1 activa los cuatro interruptores.
+
+223
+00:18:40,333 --> 00:18:44,566
+La barra 2 empuja la información XOR a la vuelta de la esquina
+
+224
+00:18:44,733 --> 00:18:48,233
+y activa las puertas XOR inferiores.
+
+225
+00:18:48,600 --> 00:18:52,533
+Finalmente, la tercera barra evalúa el resultado
+
+226
+00:18:52,800 --> 00:18:59,033
+que, como era de esperar, es 001 en binario o tres en decimal.
+
+227
+00:18:59,633 --> 00:19:03,200
+En este caso, la cadena de transporte aún no se ha utilizado.
+
+228
+00:19:03,600 --> 00:19:09,866
+Así que finalmente hacemos el ejemplo desde el principio con el remanente, así que...
+
+229
+00:19:11,333 --> 00:19:12,433
+tres
+
+230
+00:19:13,100 --> 00:19:14,100
+más
+
+231
+00:19:15,233 --> 00:19:16,533
+uno.
+
+232
+00:19:16,766 --> 00:19:23,000
+La entrada activa la primera puerta XOR y la segunda AND.
+
+233
+00:19:23,600 --> 00:19:29,333
+El reloj 1 activa los interruptores de la cadena de acarreo,
+
+234
+00:19:29,333 --> 00:19:35,733
+así como el interruptor para calcular el acarreo U2 con el segundo lugar.
+
+235
+00:19:36,000 --> 00:19:40,700
+El compás 2 cambia el acarreo a U3.
+
+236
+00:19:40,866 --> 00:19:45,700
+Y el compás 3 ya no tiene ningún efecto.
+
+237
+00:19:45,933 --> 00:19:53,233
+El resultado es correctamente 100 binario o decimal cuatro.
+
+238
+00:19:54,300 --> 00:19:55,200
+¡Hecho!
+
+239
+00:19:55,966 --> 00:20:00,000
+Konrad Zuse realmente ha diseñado algo bastante ingenioso: ¡
+
+240
+00:20:00,533 --> 00:20:04,966
+el primer sumador binario del mundo!
+
+241
+00:20:05,700 --> 00:20:07,033
+¡Sus colegas
+
+242
+00:20:07,033 --> 00:20:08,766
+Wilhelm Schickard y...
+
+243
+00:20:08,766 --> 00:20:10,766
+Gottfried Wilhelm Leibniz
+
+244
+00:20:10,766 --> 00:20:17,666
+sin duda aplaudirían vigorosamente!
+
