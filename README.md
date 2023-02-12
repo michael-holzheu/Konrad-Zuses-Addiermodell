@@ -7,7 +7,7 @@ Konrad Zuse basiert:
 
 ## Weitere Informationen
 
-Sehr wahrscheinlich hat der deutsche Erfinder bereits ab 1936 ein ganz ähnlich
+Sehr wahrscheinlich hat der deutsche Erfinder bereits um 1937 ein ganz ähnlich
 aufgebautes Rechenwerk in seiner mechanischen Zuse Z1 realisiert:
 
 - Wikipedia: https://de.wikipedia.org/wiki/Z1_(Rechner)
