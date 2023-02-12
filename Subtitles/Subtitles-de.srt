@@ -1,4 +1,4 @@
-﻿1
+1
 00:00:34,133 --> 00:00:41,266
 Das Zeitalter des automatischen Rechnens
 beginnt 1623,
