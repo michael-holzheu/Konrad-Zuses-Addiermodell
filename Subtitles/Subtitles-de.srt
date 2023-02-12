@@ -1,0 +1,1125 @@
+﻿1
+00:00:34,133 --> 00:00:41,266
+Das Zeitalter des automatischen Rechnens
+beginnt 1623,
+
+2
+00:00:41,266 --> 00:00:45,000
+als Wilhelm Schickard seine Rechenmaschine aus
+Holz fertigstellt.
+
+3
+00:00:45,600 --> 00:00:51,100
+Diese Maschine verwendet Zahnräder und arbeitet im
+Dezimalsystem.
+
+4
+00:00:51,700 --> 00:00:56,333
+Mit zwei Zahnrädern kann man eine zweistellige
+Zahl darstellen.
+
+5
+00:00:57,066 --> 00:01:01,100
+Die Behandlung des Übertrags bei der Addition wird
+mithilfe von Zapfen
+
+6
+00:01:01,500 --> 00:01:04,400
+und einem weiteren Zahnrad realisiert.
+
+7
+00:01:04,566 --> 00:01:06,900
+Das geht dann so...
+
+8
+00:01:08,066 --> 00:01:10,700
+Zehner Übertrag “Eins” und...
+
+9
+00:01:11,900 --> 00:01:14,266
+Übertrag “Zwei”...
+
+10
+00:01:15,533 --> 00:01:17,566
+Und...
+
+11
+00:01:17,700 --> 00:01:21,433
+Übertrag “Drei” macht zusammen 30!
+
+12
+00:01:22,900 --> 00:01:25,466
+Wie man sieht, eignen sich Zahnräder
+wirklich
+
+13
+00:01:25,500 --> 00:01:28,433
+hervorragend für die Addition im
+Zehnersystem.
+
+14
+00:01:29,600 --> 00:01:33,466
+Heutige Rechner arbeiten allerdings alle im
+Binärsystem,
+
+15
+00:01:34,133 --> 00:01:38,366
+welches von Gottfried Wilhelm Leibniz Ende des
+17. Jahrhunderts,
+
+16
+00:01:38,366 --> 00:01:42,400
+etwa 75 Jahre nach Schickards Erfindung
+dokumentiert wurde.
+
+17
+00:01:43,200 --> 00:01:45,900
+Als Beispiel zeigt uns Herr Leibniz
+nun, wie man
+
+18
+00:01:46,266 --> 00:01:50,166
+3 + 1 in seinem Binärsystem berechnet.
+
+19
+00:01:51,000 --> 00:01:57,266
+Die 3 wird als 1 * 2^1 + 1 * 2^0, also
+
+20
+00:01:57,833 --> 00:02:01,766
+1 * 2 +  1 * 1 dargestellt.
+
+21
+00:02:02,066 --> 00:02:07,833
+Die 1 entsprechend als 0 * 2 + 1 * 1.
+
+22
+00:02:08,566 --> 00:02:12,633
+Die Summe bilden wir durch das Untereinander-Schreiben
+der beiden Zahlen.
+
+23
+00:02:13,633 --> 00:02:17,966
+Ganz so, wie wir es auch in der Schule für das
+Dezimalsystem gelernt haben.
+
+24
+00:02:19,200 --> 00:02:24,700
+Also ist 1 + 1 = 0 ...
+1 gemerkt!
+
+25
+00:02:25,433 --> 00:02:30,666
+1 + (gemerkte) 1 = 0
+Und wieder 1 gemerkt!
+
+26
+00:02:31,100 --> 00:02:36,366
+Schließlich ergibt 0 + 1 = 1 ...
+
+27
+00:02:36,366 --> 00:02:41,800
+Die Summe ist also 2 * 2^2 bzw. 1 * 4,
+
+28
+00:02:42,200 --> 00:02:45,933
+oder eben einfach dezimal vier!
+
+29
+00:02:46,966 --> 00:02:50,800
+Bei der Rechnung haben wir gesehen,
+dass wir zweimal den Übertrag
+
+30
+00:02:51,100 --> 00:02:56,533
+von der niederwertigen auf die höherwertige Stelle
+berücksichtigen mussten.
+
+31
+00:02:57,066 --> 00:03:00,300
+Diesem Konzept werden wir im Folgenden noch
+mehrfach begegnen.
+
+32
+00:03:00,900 --> 00:03:04,000
+Also kommen wir nun in die moderne Welt
+der Technik
+
+33
+00:03:04,000 --> 00:03:10,166
+mit der ersten binären Rechenmaschine im bekannten Universum,
+nämlich der Z1!
+
+34
+00:03:10,366 --> 00:03:13,500
+Konrad Zuse hat sein Werk
+
+35
+00:03:13,866 --> 00:03:18,933
+1937 aus Tausenden von Blechteilen
+zusammengebaut.
+
+36
+00:03:19,500 --> 00:03:23,800
+Hier sehen wir den Nachbau aus dem
+Technikmuseum in Berlin.
+
+37
+00:03:24,800 --> 00:03:29,666
+Diese Abschnitt hier realisiert zum Beispiel das Rechenwerk,
+mit der  Addiereinheit.
+
+38
+00:03:30,300 --> 00:03:34,300
+Bei der Vielzahl von Einzelelementen erscheint es
+beinahe unmöglich,
+
+39
+00:03:34,533 --> 00:03:38,233
+zu verstehen, wie dieses Wunderwerk
+im Innersten funktionieren soll.
+
+40
+00:03:38,600 --> 00:03:41,933
+Zum Glück gibt es aber im Hünfelder
+Zuse-Museum ein
+
+41
+00:03:41,933 --> 00:03:47,766
+Modell, das recht anschaulich zeigt, was die dahinterliegenden
+Prinzipien sind.
+
+42
+00:03:48,833 --> 00:03:54,400
+Zur Realisierung der Addierfunktion hat Zuse drei Typen von
+Bauteilen verwendet,
+
+43
+00:03:54,400 --> 00:03:55,633
+nämlich...
+
+44
+00:03:55,633 --> 00:03:58,233
+AND- und XOR-Gatter,
+
+45
+00:03:58,433 --> 00:04:01,200
+sowie einfache Schalter-Elemente.
+
+46
+00:04:02,033 --> 00:04:05,433
+Das Modell entspricht ziemlich genau der
+Addierschaltung,
+
+47
+00:04:05,433 --> 00:04:10,100
+welche Konrad Zuse höchstpersönlich
+gezeichnet hat.
+
+48
+00:04:15,166 --> 00:04:17,700
+Im Folgenden wollen wir daher
+zunächst den Aufbau
+
+49
+00:04:17,700 --> 00:04:22,466
+dieser drei Grundelemente beschreiben
+und beginnen mit dem AND-Gatter.
+
+50
+00:04:22,933 --> 00:04:31,166
+Dieses hat zwei Eingänge A und B, sowie einen
+Ausgang, der das Ergebnis darstellt.
+
+51
+00:04:31,500 --> 00:04:37,533
+Die Wahrheitstabelle für die UND-Verknüpfung definiert für
+jedes mögliche A und B das Ergebnis.
+
+52
+00:04:37,800 --> 00:04:43,133
+Nur wenn A und B eins sind, ist auch die
+Ausgabe eins.
+
+53
+00:04:43,533 --> 00:04:48,733
+Für alle anderen Fälle erhalten wir
+die Null.
+
+54
+00:04:48,900 --> 00:04:56,833
+Schauen wir uns einmal an, wie Konrad Zuse diese Operation
+mithilfe seiner Blechteile realisiert hat.
+
+55
+00:04:57,700 --> 00:05:01,533
+Um die Orientierung nicht zu verlieren,
+verwenden wir dafür die gleiche
+
+56
+00:05:01,533 --> 00:05:06,466
+horizontale und vertikale Ausrichtung
+wie bei dem Hünfelder Modell.
+
+57
+00:05:07,700 --> 00:05:12,300
+Für die Eingabe werden die Bleche A und B
+verwendet,
+
+58
+00:05:12,700 --> 00:05:16,400
+welche sich jeweils nach rechts und links bewegen
+können...
+
+59
+00:05:16,833 --> 00:05:23,166
+Und damit die Eins oder die Null
+einstellbar machen.
+
+60
+00:05:24,000 --> 00:05:30,400
+Für das Ergebnis gibt es das Ausgabeblech, das in vertikaler
+Richtung bewegt wird
+
+61
+00:05:30,733 --> 00:05:35,700
+und das Ergebnis Null und Eins darstellen
+kann.
+
+62
+00:05:37,133 --> 00:05:43,433
+Die eigentliche Verknüpfungslogik wird über das
+sogenannte Kopplungsblech realisiert,
+
+63
+00:05:43,733 --> 00:05:47,466
+welches spezielle Ausprägungen für die
+UND-Operation besitzt
+
+64
+00:05:47,733 --> 00:05:52,133
+und sich ebenfalls in vertikaler Richtung
+bewegt.
+
+65
+00:05:54,166 --> 00:05:58,000
+Die drei Bleche werden dann übereinander
+gestapelt
+
+66
+00:05:58,233 --> 00:06:01,700
+und durch zwei Schaltstifte miteinander
+verbunden.
+
+67
+00:06:02,566 --> 00:06:06,200
+Den gleichen Effekt erreichen wir in der
+Explosionszeichnung
+
+68
+00:06:06,466 --> 00:06:10,166
+mithilfe von horizontal gekoppelten
+Stiften.
+
+69
+00:06:10,766 --> 00:06:16,033
+Was jetzt noch fehlt, ist ein Mechanismus, um die
+UND-Schaltung auszulösen.
+
+70
+00:06:16,600 --> 00:06:20,400
+Dafür hat Konrad Zuse das
+Taktblech vorgesehen,
+
+71
+00:06:20,766 --> 00:06:26,300
+welches sich, so wie das Ausgabeblech,
+vertikal bewegen kann.
+
+72
+00:06:27,733 --> 00:06:31,100
+Nun überprüfen wir, ob die Schaltung auch
+richtig funktioniert
+
+73
+00:06:31,466 --> 00:06:35,533
+und starten mit der ersten Zeile der
+Wahrheitstabelle.
+
+74
+00:06:35,866 --> 00:06:40,666
+Als Eingabe verwenden wir Null für A und
+Null für B.
+
+75
+00:06:41,433 --> 00:06:45,100
+Dann wird der Taktimpuls ausgelöst.
+
+76
+00:06:45,600 --> 00:06:50,566
+Weil die obere Kopplung nicht stattfindet,
+verharrt auch das Ausgabeblech
+
+77
+00:06:50,566 --> 00:06:55,233
+in seiner Ursprungsposition und das Ergebnis
+ist die Null.
+
+78
+00:06:55,766 --> 00:06:58,666
+Jetzt die zweite Zeile...
+
+79
+00:06:59,633 --> 00:07:02,766
+Null und...
+
+80
+00:07:02,766 --> 00:07:04,333
+Eins...
+
+81
+00:07:04,433 --> 00:07:08,500
+ergibt wieder die Null,
+
+82
+00:07:09,066 --> 00:07:13,466
+weil die obere Kopplung erneut nicht
+aktiviert wird.
+
+83
+00:07:14,433 --> 00:07:17,366
+Nun zur dritten Zeile...
+
+84
+00:07:18,133 --> 00:07:24,133
+Wir setzen die Eingabe A auf Eins
+und B auf Null.
+
+85
+00:07:24,966 --> 00:07:29,533
+Dieses Mal bewegt der Taktimpuls,
+das Kopplungsblech.
+
+86
+00:07:29,966 --> 00:07:37,933
+Weil aber die untere Kopplung nicht stattfindet, bleibt das
+Ausgangsblech erneut auf der Null.
+
+87
+00:07:38,933 --> 00:07:43,166
+Schließlich testen wir noch die letzte
+Zeile der Tabelle
+
+88
+00:07:43,600 --> 00:07:46,833
+und setzen sowohl die Eingabe A
+
+89
+00:07:48,500 --> 00:07:53,200
+als auch B auf Eins.
+
+90
+00:07:54,400 --> 00:08:02,300
+Durch den Takt wird jetzt das Ausgabeblech verschoben,
+weil sowohl die obere
+
+91
+00:08:02,466 --> 00:08:08,900
+als auch die untere Kopplung stattfindet
+und das Ergebnis ist die Eins.
+
+92
+00:08:10,600 --> 00:08:14,433
+Somit haben wir also das AND-Gatter
+vollständig verifiziert
+
+93
+00:08:14,433 --> 00:08:18,433
+und schauen uns als nächstes das
+XOR-Gatter an.
+
+94
+00:08:18,833 --> 00:08:22,033
+Dazu müssen wir erst das AND-Gatter
+auflösen,
+
+95
+00:08:22,233 --> 00:08:25,833
+dann das Kopplungsblech entfernen und
+dieses
+
+96
+00:08:25,833 --> 00:08:29,233
+schließlich durch zwei neue Bleche
+ersetzen,
+
+97
+00:08:29,333 --> 00:08:33,100
+welche die richtigen Ausfräsungen für die XOR-Operation
+besitzen.
+
+98
+00:08:33,866 --> 00:08:40,066
+Die Bleche werden dann abschließend wieder durch die
+Schaltstifte verbunden und voila...
+
+99
+00:08:40,200 --> 00:08:44,366
+Unser exklusives oder ODER-Gatter ist fertig
+montiert!
+
+100
+00:08:44,633 --> 00:08:48,200
+Die Wahrheitstabelle sieht diesmal
+folgendermaßen aus:
+
+101
+00:08:48,400 --> 00:08:54,600
+Für den Fall, dass A und B gleich sind,
+ist das Ergebnis die Null.
+
+102
+00:08:54,600 --> 00:09:00,200
+Wenn A und B ungleich sind, ergibt die
+XOR-Verknüpfung die Eins.
+
+103
+00:09:00,766 --> 00:09:03,600
+Also wieder zum Test unserer Schaltung...
+
+104
+00:09:04,566 --> 00:09:08,266
+Null XOR Null
+
+105
+00:09:08,700 --> 00:09:13,600
+ergibt die Null!
+
+106
+00:09:17,100 --> 00:09:22,600
+Null XOR Eins
+
+107
+00:09:22,800 --> 00:09:26,400
+ergibt die Eins.
+
+108
+00:09:27,300 --> 00:09:30,000
+Jetzt hat man gesehen, dass das rechte
+
+109
+00:09:30,000 --> 00:09:35,166
+Blech bei Ungleichheit von A und B
+die Kopplung übernimmt.
+
+110
+00:09:38,566 --> 00:09:40,366
+Und weitergeht es mit...
+
+111
+00:09:40,366 --> 00:09:45,133
+Eins XOR Null
+
+112
+00:09:46,466 --> 00:09:47,600
+ergibt
+
+113
+00:09:48,400 --> 00:09:51,033
+ebenfalls die Eins.
+
+114
+00:09:51,033 --> 00:09:54,900
+Diesmal übernimmt das linke Blech
+die Kopplung.
+
+115
+00:09:55,733 --> 00:09:57,666
+Bleibt nur noch...
+
+116
+00:10:00,100 --> 00:10:05,533
+Eins XOR Eins,
+
+117
+00:10:06,466 --> 00:10:09,966
+das dann wieder die Null ergibt.
+
+118
+00:10:10,800 --> 00:10:15,200
+Nachdem wir nun die logischen Operationen
+AND und XOR realisiert haben,
+
+119
+00:10:15,466 --> 00:10:18,033
+fehlt uns noch der einfache Schalter.
+
+120
+00:10:18,466 --> 00:10:23,066
+Dieser besteht aus einem Takt- und einem
+Ausgabeblech,
+
+121
+00:10:23,066 --> 00:10:28,533
+die sich beide horizontal bewegen können,
+sowie einem Eingabeblech,
+
+122
+00:10:28,533 --> 00:10:31,200
+welches vertikal ausgerichtet ist.
+
+123
+00:10:31,966 --> 00:10:36,533
+Alle drei Bleche werden natürlich wieder
+mit einem Schaltstift verbunden.
+
+124
+00:10:36,900 --> 00:10:43,466
+Im inaktiven Zustand sind Takt- und Ausgabeblech nicht
+gekoppelt und der Impuls
+
+125
+00:10:43,466 --> 00:10:46,200
+wird entsprechend nicht durch geschaltet.
+
+126
+00:10:46,700 --> 00:10:49,466
+Ist der Schalter aktiv,
+
+127
+00:10:50,033 --> 00:10:53,800
+wird der Taktimpuls weitergeleitet.
+
+128
+00:10:55,066 --> 00:10:58,366
+Mit den drei beschriebenen Schaltelementen haben
+wir nun alle
+
+129
+00:10:58,366 --> 00:11:02,733
+Zutaten für das Hünfelder Addiermodell.
+
+130
+00:11:02,733 --> 00:11:06,900
+Im Folgenden erklären wir nun Schritt für Schritt, wie der
+Addierer aufgebaut ist.
+
+131
+00:11:07,200 --> 00:11:13,466
+Wir starten dafür rechts oben, wo ein AND- und ein XOR-Gatter
+verbaut sind.
+
+132
+00:11:13,466 --> 00:11:19,400
+Die Schaltung hat zwei Eingänge, nämlich
+A1 und B1.
+
+133
+00:11:20,100 --> 00:11:28,600
+Dann gibt es zwei Ausgänge, nämlich R für das Resultat der Summe
+und U für den Übertrag.
+
+134
+00:11:29,100 --> 00:11:33,200
+Aktiviert werden die Gatter über das
+erste Taktblech.
+
+135
+00:11:34,066 --> 00:11:40,033
+Und hier wieder die Wahrheittabelle für die Schaltung,
+welche heutzutage übrigens
+
+136
+00:11:40,300 --> 00:11:43,000
+Halbaddierer genannt wird.
+
+137
+00:11:43,000 --> 00:11:48,133
+Dieses Bauteil hat also zwei Eingänge,
+
+138
+00:11:48,133 --> 00:11:51,033
+nämlich den ersten Summanden A1
+
+139
+00:11:51,633 --> 00:11:54,733
+und den zweiten Summanden B1.
+
+140
+00:11:55,333 --> 00:11:58,166
+Dann haben wir zwei Ausgänge,
+
+141
+00:11:58,166 --> 00:12:04,300
+nämlich die Summe R und den Übertrag U.
+
+142
+00:12:05,000 --> 00:12:08,366
+Als nächstes testen wir die Schaltung...
+
+143
+00:12:09,633 --> 00:12:12,200
+Null plus Null
+
+144
+00:12:12,700 --> 00:12:14,533
+ergibt das Resultat
+
+145
+00:12:16,800 --> 00:12:18,466
+Null!
+
+146
+00:12:18,600 --> 00:12:21,466
+Und der Übertrag ist ebenfalls Null.
+
+147
+00:12:22,133 --> 00:12:27,266
+Sowohl AND als auch XOR geben den
+Taktimpuls nicht weiter.
+
+148
+00:12:29,000 --> 00:12:35,000
+In der zweiten Zeile setzen wir A1 auf Null
+
+149
+00:12:35,466 --> 00:12:39,600
+und B1 auf Eins.
+
+150
+00:12:40,300 --> 00:12:43,600
+Das aktiviert das XOR-Gatter
+
+151
+00:12:44,000 --> 00:12:45,700
+und der Takt
+
+152
+00:12:45,700 --> 00:12:47,833
+wird durch geschaltet.
+
+153
+00:12:48,966 --> 00:12:52,933
+Das Ergebnis ist die Eins und der Übertrag
+
+154
+00:12:52,933 --> 00:12:55,633
+bleibt bei Null.
+
+155
+00:12:56,000 --> 00:12:57,900
+Das gleiche gilt für
+
+156
+00:12:59,366 --> 00:13:03,433
+Eins plus Null.
+
+157
+00:13:04,466 --> 00:13:06,700
+Schauen wir uns noch die
+
+158
+00:13:06,900 --> 00:13:10,366
+letzte Zeile der Wahrheitstabelle an.
+
+159
+00:13:12,600 --> 00:13:15,333
+Eins und
+
+160
+00:13:16,666 --> 00:13:18,333
+Eins
+
+161
+00:13:18,400 --> 00:13:21,333
+aktiviert diesmal das AND-Gatter
+
+162
+00:13:22,000 --> 00:13:24,266
+und der Takt bewirkt,
+
+163
+00:13:24,466 --> 00:13:27,366
+dass der Übertrag gesetzt wird.
+
+164
+00:13:28,966 --> 00:13:31,733
+Die Summe verharrt auf der Null.
+
+165
+00:13:36,733 --> 00:13:39,733
+Unser Halbaddierer scheint also zu
+funktionieren.
+
+166
+00:13:40,200 --> 00:13:44,333
+Er kann eine Binärstelle korrekt addieren
+und den Übertrag bestimmen.
+
+167
+00:13:44,700 --> 00:13:48,766
+Für die letzte Stelle einer Binärzahl wäre die Schaltung
+bereits ausreichend.
+
+168
+00:13:49,200 --> 00:13:55,300
+Ab der vorletzten Stelle muss aber der Übertrag der vorherigen
+Addition noch berücksichtigt werden.
+
+169
+00:13:55,733 --> 00:14:00,633
+Um das zu erreichen, müssen wir die Schaltung noch
+etwas erweitern.
+
+170
+00:14:01,500 --> 00:14:04,633
+Hier nochmal die logische Darstellung unseres
+Halbaddierers
+
+171
+00:14:04,633 --> 00:14:09,266
+mit den Summanden A1 und B1
+
+172
+00:14:09,466 --> 00:14:14,433
+und als Ergebnis die Summe R und Übertrag U.
+
+173
+00:14:14,766 --> 00:14:22,166
+Zusätzlich zu A1 und B1 bekommen wir nun als dritte Eingabe
+noch den Übertrag U1,
+
+174
+00:14:22,733 --> 00:14:26,466
+welcher aus der Addition der vorherigen
+Stelle stammt.
+
+175
+00:14:26,700 --> 00:14:32,566
+Durch zusätzliche Logik muss dann aus
+A1, B1 und U1
+
+176
+00:14:32,566 --> 00:14:38,400
+die neue Summe R1 und der neue Übertrag U2
+berechnet werden.
+
+177
+00:14:38,600 --> 00:14:43,333
+Die Wahrheitstabelle bekommt nun entsprechend
+eine Spalte mehr.
+
+178
+00:14:43,633 --> 00:14:48,266
+Übrigens sind wir nun dabei, einen sogenannten
+Volladdierer zu bauen,
+
+179
+00:14:48,633 --> 00:14:54,300
+mit der Abkürzung FA für Englisch “Full Adder”.
+
+180
+00:14:55,366 --> 00:14:58,200
+Schauen wir uns zunächst einmal
+die Berechnung der Summe
+
+181
+00:14:58,200 --> 00:15:03,700
+R1 an, welche immer dann Eins wird, wenn genau
+eine Eingabe
+
+182
+00:15:03,700 --> 00:15:09,033
+A1, B1 oder U1 gesetzt ist, oder alle
+drei zusammen.
+
+183
+00:15:09,300 --> 00:15:12,833
+Dieses Verhalten kann man durch ein weiteres
+XOR-Glied erreichen,
+
+184
+00:15:13,200 --> 00:15:19,166
+in das wir den Übertrag U1, sowie das Ergebnis der ersten
+XOR-Operation speisen.
+
+185
+00:15:19,166 --> 00:15:25,533
+Das obere XOR-Gatter schaltet immer dann,
+wenn entweder A1 oder B1 gesetzt ist.
+
+186
+00:15:25,833 --> 00:15:34,300
+Für U1 gleich Null schaltet dann das zweite XOR
+und das Endresultat ist Eins.
+
+187
+00:15:34,466 --> 00:15:39,900
+Sind A1 und B1 Null und U1 ist
+gesetzt,
+
+188
+00:15:40,200 --> 00:15:45,366
+schaltet das untere XOR ebenfalls und das Resultat ist
+wieder Eins.
+
+189
+00:15:46,300 --> 00:15:50,800
+Nun stellt sich die Frage, wie die Information aus dem
+ersten XOR-Gatter
+
+190
+00:15:51,166 --> 00:15:53,966
+mechanisch in das Zweite gelangen kann.
+
+191
+00:15:54,200 --> 00:15:58,000
+Schließlich muss der Impuls ja irgendwie um die
+Ecke kommen.
+
+192
+00:15:58,466 --> 00:16:03,566
+Erreicht wird dieses Kunststück durch ein zweites
+Tackblech und einen Schalter.
+
+193
+00:16:04,100 --> 00:16:07,000
+Demonstrieren wir einmal, wie das prinzipiell
+funktioniert
+
+194
+00:16:07,000 --> 00:16:11,533
+und nehmen dazu Zeile drei der Wahrheitstabelle:
+
+195
+00:16:11,533 --> 00:16:18,600
+Null plus Eins aktiviert das XOR Gatter.
+
+196
+00:16:19,600 --> 00:16:23,266
+Dann wird der erste Takt ausgelöst
+
+197
+00:16:23,633 --> 00:16:26,233
+und der Schalter wird umgelegt.
+
+198
+00:16:27,000 --> 00:16:30,633
+Im Takt 2 wird dann die Information
+
+199
+00:16:30,633 --> 00:16:37,800
+aus dem ersten XOR über den Schalter in das zweite
+XOR geschoben und aktiviert dieses.
+
+200
+00:16:38,866 --> 00:16:41,400
+Der Impuls ist somit um die
+Ecke geflossen.
+
+201
+00:16:41,766 --> 00:16:49,233
+Nun brauchen wir noch ein drittes Taktblech, um das
+zweite XOR Gatter auszulösen
+
+202
+00:16:49,466 --> 00:16:53,300
+und das korrekte Ergebnis zu berechnen.
+
+203
+00:16:54,000 --> 00:16:59,900
+Nachdem wir nun das Resultat R1 berechnen können,
+fehlt noch der Übertrag U2.
+
+204
+00:17:00,533 --> 00:17:08,933
+Diese ergibt Eins, wenn sowohl A1 als auch B1 gesetzt ist,
+was dann das AND-Gatter aktiviert.
+
+205
+00:17:09,833 --> 00:17:12,466
+Für diesen Fall wird wieder die
+Information mithilfe
+
+206
+00:17:12,466 --> 00:17:17,133
+eines Schalters von Takt 2 um die
+Ecke geschoben.
+
+207
+00:17:17,833 --> 00:17:22,933
+Fehlen noch die Fälle, wo entweder A1
+oder B1 gesetzt sind,
+
+208
+00:17:23,400 --> 00:17:26,266
+was das obere XOR aktiviert.
+
+209
+00:17:26,700 --> 00:17:31,700
+Zusätzlich kommt noch der Übertrag U1
+von der Vorgängerstelle.
+
+210
+00:17:32,433 --> 00:17:36,433
+Das Weiterleiten des Übertrags realisiert man
+einfach dadurch,
+
+211
+00:17:36,733 --> 00:17:41,700
+dass die obere XOR Information mithilfe eines
+weiteren Schalters von U1
+
+212
+00:17:41,700 --> 00:17:47,166
+nach U2 geschoben wird, was natürlich wieder
+Takt Blech zwei übernimmt.
+
+213
+00:17:47,733 --> 00:17:52,700
+Somit ist unser Volladdierer komplett
+und kann jetzt als Basiselement
+
+214
+00:17:52,700 --> 00:17:57,133
+für theoretisch beliebig viele Stellen eines
+Addierwerks dienen.
+
+215
+00:17:58,500 --> 00:18:01,933
+Das Hünfelder Modell verwendet
+zwei Binärstellen.
+
+216
+00:18:02,166 --> 00:18:07,633
+Also kopieren wir unseren Volladdierer einmal und passen
+die Beschriftungen an.
+
+217
+00:18:08,500 --> 00:18:14,166
+Dann verbinden wir die beiden Teile mithilfe
+des Übertragblechs U2.
+
+218
+00:18:14,600 --> 00:18:19,200
+Und fertig ist unser 2-Bit-Addier mit folgender
+Wahrheitstabelle:
+
+219
+00:18:19,633 --> 00:18:23,433
+Rechnen wir zunächst ein Beispiel
+ohne Übertrag.
+
+220
+00:18:23,733 --> 00:18:31,166
+Wie wäre es mit Zwei plus Eins?
+
+221
+00:18:31,433 --> 00:18:34,766
+Die Eingabe löst die beiden XOR-Gatter aus.
+
+222
+00:18:35,000 --> 00:18:39,966
+Dann aktiviert Takt eins die vier Schalter.
+
+223
+00:18:40,333 --> 00:18:44,566
+Takt 2 schiebt die XOR Information
+um die Ecke
+
+224
+00:18:44,733 --> 00:18:48,233
+und aktiviert die unteren XOR Gatter.
+
+225
+00:18:48,600 --> 00:18:52,533
+Schließlich wertet der dritte Takt das
+Ergebnis aus,
+
+226
+00:18:52,800 --> 00:18:59,033
+welches wie erwartet binär die 001 oder
+dezimal die Drei ist.
+
+227
+00:18:59,633 --> 00:19:03,200
+In diesem Fall wurde die Übertragskette
+noch nicht benutzt.
+
+228
+00:19:03,600 --> 00:19:09,866
+Also machen wir zuletzt noch das Beispiel
+vom Anfang mit Übertrag, also...
+
+229
+00:19:11,333 --> 00:19:12,433
+Drei
+
+230
+00:19:13,100 --> 00:19:14,100
+plus
+
+231
+00:19:15,233 --> 00:19:16,533
+Eins.
+
+232
+00:19:16,766 --> 00:19:23,000
+Die Eingabe aktiviert das erste XOR-, sowie das
+zweite AND-Gatter.
+
+233
+00:19:23,600 --> 00:19:29,333
+Takt 1 löst die Schalter für die Übertragskette
+aus,
+
+234
+00:19:29,333 --> 00:19:35,733
+sowie den Schalter, um den Übertrag U2 mit der
+zweiten Stelle zu verrechnen.
+
+235
+00:19:36,000 --> 00:19:40,700
+Takt 2 schiebt den Übertrag
+bis U3.
+
+236
+00:19:40,866 --> 00:19:45,700
+Und Takt 3 bleibt dann ohne
+weiteren Effekt.
+
+237
+00:19:45,933 --> 00:19:53,233
+Das Ergebnis ist korrekterweise binär 100
+oder dezimal Vier.
+
+238
+00:19:54,300 --> 00:19:55,200
+Geschafft!
+
+239
+00:19:55,966 --> 00:20:00,000
+Konrad Zuse hat da wirklich eine ziemlich geniale
+Sache entworfen:
+
+240
+00:20:00,533 --> 00:20:04,966
+Das erste binäre Addierwerk
+der Welt!
+
+241
+00:20:05,700 --> 00:20:07,033
+Seine Kollegen
+
+242
+00:20:07,033 --> 00:20:08,766
+Wilhelm Schickard und...
+
+243
+00:20:08,766 --> 00:20:10,766
+Gottfried Wilhelm Leibniz
+
+244
+00:20:10,766 --> 00:20:17,666
+würden jetzt sicher kräftig
+applaudieren!
