@@ -1,0 +1,83 @@
+Keywords
+--------
+ATTRIBUTE: Attribute to external work
+BUG:       Bug or Problem
+CLAIM:     Claim/Statement
+COMPARE:   Comparison to other device
+DIALECT:   Spoken dialect
+DISCOVER:  We found out something new! 
+FACT:      Fact. Something that is objective right
+HOWTO:     Tutorial, Explanation how to achieve something
+IDEA:      Proposal for improving things
+LINK:      Link/URL to external information
+MEASURE:   Measurement, e.g. time.
+PART:      Part of the package
+PERSON:    Person
+QUESTION:  Question
+SAYING:    Saying
+SPECIAL:   Special feature
+SUMMARY:   Summary
+TRYOUT:    Try something out (experiment)
+WORD:      Special word
+THESIS:    Thesis
+THING:     Thing, institiution, ...
+TOC:       Table of Contents
+
+Speaker/Actors
+--------------
+MICHAEL:   Speaker
+
+Log
+---
+00:33 TOC	Die Rechenmaschine von Wilhelm Schickard
+00:41 PERSON	Wilhilm Schickard
+		LINK: https://de.wikipedia.org/wiki/Wilhelm_Schickard
+00:45 CLAIM	Schickards Rechenmaschine arbeitet mit Zahnrädern im Dezimalsystem
+01:22 CLAIM	Zahnräder eignen sich gut für Addition im Zehnersystem
+01:26 WORD	Zehnersystem
+		LINK: https://de.wikipedia.org/wiki/Dezimalsystem
+01:29 TOC	Binärsystem von Gottfried Wilhelm Leibniz
+01:29 CLAIM	Heutige Rechner arbeiten alle im Binärsystem
+01:34 PERSON	Gottfried Wilhelm Leibniz
+		LINK: https://de.wikipedia.org/wiki/Gottfried_Wilhelm_Leibniz
+01:43 TOC	Beispielrechnung binär: 3 + 1 = 4
+02:46 TOC	Konzept des Übertrags
+02:47 WORD	Übertrag
+                LINK: https://de.wikipedia.org/wiki/%C3%9Cbertrag
+02:57 TOC	Die binäre Rechenmaschine Z1
+02:57 THING	Zuse Z1
+		LINK: https://de.wikipedia.org/wiki/Z1_(Rechner)
+03:10 PERSON	Konrad Zuse
+03:27 WORD	Rechenwerk
+03:28 WORD	Addiereinheit
+03:38 THING     Konrad-Zuse-Museum Hünfeld
+                LINK: https://de.wikipedia.org/wiki/Konrad-Zuse-Museum_H%C3%BCnfeld
+03:38 TOC       Das Hünfelder Addiermodell
+04:14 TOC       Das AND-Gatter
+04:21 WORD      AND-Gatter
+		LINK: https://de.wikipedia.org/wiki/Und-Gatter
+04:31 WORD      Wahrheitstabelle
+		LINK: https://de.wikipedia.org/wiki/Wahrheitstabelle
+05:25 WORD	Ausgabeblech
+05:40 WORD	Kopplungsblech
+05:59 WORD	Schaltstifte
+05:04 WORD	Explosionszeichnung
+		LINK: https://de.wikipedia.org/wiki/Explosionszeichnung
+06:18 WORD	Taktblech
+06:42 WORD	Taktimpuls
+08:10 TOC	Das XOR-Gatter
+08:16 WORD      XOR-Gatter
+		LINK: https://de.wikipedia.org/wiki/Exklusiv-Oder-Gatter
+10:10 TOC	Der Schalter (Identität)
+10:11 WORD	Identität
+		LINK: https://de.wikipedia.org/wiki/Identische_Abbildung
+10:55 TOC	Aufbau der Addierschaltung mit AND-, XOR- und Schalter
+11:07 TOC       Aufbau Halbaddierer
+11:33 WORD	Halbaddierer
+		LINK: https://de.wikipedia.org/wiki/Halbaddierer
+13:44 TOC	Aufbau Volladdierer
+14:45 WORD	Volladdierer
+		LINK: https://de.wikipedia.org/wiki/Volladdierer
+15:46 TOC	Wie kommt der Impuls um die Ecke?
+17:47 TOC	N-Bit Addierer aus Volladdierer
+19:01 WORD	Übertragskette
