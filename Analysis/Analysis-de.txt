@@ -33,6 +33,14 @@ Log
 00:41 PERSON	Wilhilm Schickard
 		LINK: https://de.wikipedia.org/wiki/Wilhelm_Schickard
 00:45 CLAIM	Schickards Rechenmaschine arbeitet mit Zahnrädern im Dezimalsystem
+00:51 WORD	Zahnrad
+		EN: Gear (wheel)
+00:58 WORD	Übertrag
+		LINK: https://de.wikipedia.org/wiki/%C3%9Cbertrag
+		LINK: 02:47
+		EN: Carry
+01:02 WORD	Zapfen
+		EN: Pin
 01:22 CLAIM	Zahnräder eignen sich gut für Addition im Zehnersystem
 01:26 WORD	Zehnersystem
 		LINK: https://de.wikipedia.org/wiki/Dezimalsystem
@@ -42,8 +50,6 @@ Log
 		LINK: https://de.wikipedia.org/wiki/Gottfried_Wilhelm_Leibniz
 01:43 TOC	Beispielrechnung binär: 3 + 1 = 4
 02:46 TOC	Konzept des Übertrags
-02:47 WORD	Übertrag
-                LINK: https://de.wikipedia.org/wiki/%C3%9Cbertrag
 02:57 TOC	Die binäre Rechenmaschine Z1
 02:57 THING	Zuse Z1
 		LINK: https://de.wikipedia.org/wiki/Z1_(Rechner)
@@ -51,33 +57,50 @@ Log
 03:27 WORD	Rechenwerk
 03:28 WORD	Addiereinheit
 03:38 THING     Konrad-Zuse-Museum Hünfeld
-                LINK: https://de.wikipedia.org/wiki/Konrad-Zuse-Museum_H%C3%BCnfeld
+		LINK: https://de.wikipedia.org/wiki/Konrad-Zuse-Museum_H%C3%BCnfeld
 03:38 TOC       Das Hünfelder Addiermodell
 04:14 TOC       Das AND-Gatter
 04:21 WORD      AND-Gatter
 		LINK: https://de.wikipedia.org/wiki/Und-Gatter
+		EN: And gate
 04:31 WORD      Wahrheitstabelle
 		LINK: https://de.wikipedia.org/wiki/Wahrheitstabelle
 05:25 WORD	Ausgabeblech
+		EN: Output sheet
 05:40 WORD	Kopplungsblech
-05:59 WORD	Schaltstifte
+		EN: Coupling sheet
+05:44 WORD	Ausfräsungen
+		EN: Millings
+05:59 WORD	Schaltstift
+		EN: Switching pin
 05:04 WORD	Explosionszeichnung
 		LINK: https://de.wikipedia.org/wiki/Explosionszeichnung
+		EN: Exploded-view drawing
 06:18 WORD	Taktblech
+		EN: Clock sheet
+06:32 WORD	Wahrheitstabelle
+		LINK: https://de.wikipedia.org/wiki/Wahrheitstabelle
+		EN: Truth table
 06:42 WORD	Taktimpuls
+		EN: Clock pluse
 08:10 TOC	Das XOR-Gatter
 08:16 WORD      XOR-Gatter
 		LINK: https://de.wikipedia.org/wiki/Exklusiv-Oder-Gatter
+		EN: XOR gate
 10:10 TOC	Der Schalter (Identität)
-10:11 WORD	Identität
+10:11 WORD	Schalter/Identität
 		LINK: https://de.wikipedia.org/wiki/Identische_Abbildung
+		EN: Switch
 10:55 TOC	Aufbau der Addierschaltung mit AND-, XOR- und Schalter
 11:07 TOC       Aufbau Halbaddierer
 11:33 WORD	Halbaddierer
 		LINK: https://de.wikipedia.org/wiki/Halbaddierer
+		EN: Half adder
 13:44 TOC	Aufbau Volladdierer
 14:45 WORD	Volladdierer
 		LINK: https://de.wikipedia.org/wiki/Volladdierer
+		EN: Full adder
 15:46 TOC	Wie kommt der Impuls um die Ecke?
 17:47 TOC	N-Bit Addierer aus Volladdierer
 19:01 WORD	Übertragskette
+		EN: Carry chain
