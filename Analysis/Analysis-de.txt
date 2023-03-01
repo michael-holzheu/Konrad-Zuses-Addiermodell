@@ -74,8 +74,8 @@ Log
 		EN: Output sheet
 05:40 WORD	Kopplungsblech
 		EN: Coupling sheet
-05:44 WORD	Ausfräsungen
-		EN: Millings
+05:44 WORD	Ausfräsunge
+		EN: Milling
 05:59 WORD	Schaltstift
 		EN: Switching pin
 05:04 WORD	Explosionszeichnung
